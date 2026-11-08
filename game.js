@@ -232,6 +232,7 @@
     window.addEventListener('keydown', key);
 
     ui.start.addEventListener('click', () => {
+      if (window.SiLaniAnalytics) window.SiLaniAnalytics.track('game_start', {game_name:'wasra_wasri_run', character:selectedPlayer});
       if (mode === 'paused') { pause(); return; }
       start();
     });

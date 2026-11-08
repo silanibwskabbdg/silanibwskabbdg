@@ -14,6 +14,7 @@
   let lastResult = null, lastBlob = null;
 
   function bandFor(score) { return BANDS.find(b => score >= b.min && score <= b.max) || BANDS[0]; }
+  function trackShare(method, status) { if (window.SiLaniAnalytics) window.SiLaniAnalytics.track('share', {method, content_type:'misi_kawal_demokrasi_result', share_status:status || 'initiated'}); }
   function safeText(value, fallback) { return String(value == null || value === '' ? fallback : value); }
   function rounded(ctx, x, y, w, h, r) {
     ctx.beginPath();
@@ -46,7 +47,7 @@
     ctx.drawImage(img, x + (w - dw) / 2, y + (h - dh) / 2, dw, dh); ctx.restore();
   }
   async function buildCard(result) {
-    const canvas = document.createElement('canvas'); canvas.width = 1080; canvas.height = 1350;
+    const canvas = document.createElement('canvas'); canvas.width = 1080; canvas.height = 1550;
     const c = canvas.getContext('2d');
     const score = Math.max(0, Math.min(100, Math.round(Number(result.score) || 0)));
     const band = bandFor(score);
@@ -58,7 +59,7 @@
       loadImage(result.logoImage || 'silani-logo-clean.png')
     ]);
 
-    const bg = c.createLinearGradient(0, 0, 1080, 1350);
+    const bg = c.createLinearGradient(0, 0, 1080, 1550);
     bg.addColorStop(0, '#073B78'); bg.addColorStop(.55, '#0B65A7'); bg.addColorStop(1, '#092B58');
     c.fillStyle = bg; c.fillRect(0, 0, 1080, 1350);
     // Subtle geometric light and patriotic ribbons
@@ -90,26 +91,26 @@
     fitText(c, band.badge, 540, 769, 500, 23, '800', '#FFFFFF'); c.textAlign = 'center';
 
     // Mascots
-    drawCover(c, wasra, 15, 775, 285, 315, .98);
-    drawCover(c, wasri, 780, 775, 285, 315, .98);
+    drawCover(c, wasra, 12, 805, 250, 300, 1);
+    drawCover(c, wasri, 818, 805, 250, 300, 1);
 
     // Detail strip
-    c.fillStyle = '#FFFFFF'; rounded(c, 95, 900, 890, 170, 28); c.fill();
-    c.fillStyle = '#D7E2F0'; c.fillRect(392, 930, 3, 108); c.fillRect(688, 930, 3, 108);
+    c.fillStyle = '#FFFFFF'; rounded(c, 95, 1120, 890, 170, 28); c.fill();
+    c.fillStyle = '#D7E2F0'; c.fillRect(392, 1150, 3, 108); c.fillRect(688, 1150, 3, 108);
     c.textAlign = 'center';
-    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('JAWABAN BENAR', 245, 955);
-    c.fillStyle = '#173D69'; c.font = '900 43px system-ui'; c.fillText(`${correct} dari ${total}`, 245, 1018);
-    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('PERSENTASE', 540, 955);
-    c.fillStyle = '#173D69'; c.font = '900 43px system-ui'; c.fillText(`${score}%`, 540, 1018);
-    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('KODE HASIL', 835, 955);
-    fitText(c, safeText(result.code, 'SL-' + Date.now().toString().slice(-8)), 835, 1018, 260, 28, '900', '#173D69'); c.textAlign = 'center';
+    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('JAWABAN BENAR', 245, 1175);
+    c.fillStyle = '#173D69'; c.font = '900 43px system-ui'; c.fillText(`${correct} dari ${total}`, 245, 1238);
+    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('PERSENTASE', 540, 1175);
+    c.fillStyle = '#173D69'; c.font = '900 43px system-ui'; c.fillText(`${score}%`, 540, 1238);
+    c.fillStyle = '#64748B'; c.font = '700 23px system-ui'; c.fillText('KODE HASIL', 835, 1175);
+    fitText(c, safeText(result.code, 'SL-' + Date.now().toString().slice(-8)), 835, 1238, 260, 28, '900', '#173D69'); c.textAlign = 'center';
 
     // Call to action
-    c.fillStyle = '#FFE06B'; rounded(c, 120, 1110, 840, 92, 24); c.fill();
-    c.fillStyle = '#102F57'; c.font = '900 43px system-ui'; c.fillText('TANTANG DIRIMU SEKARANG!', 540, 1170);
+    c.fillStyle = '#FFE06B'; rounded(c, 120, 1320, 840, 92, 24); c.fill();
+    c.fillStyle = '#102F57'; c.font = '900 43px system-ui'; c.fillText('TANTANG DIRIMU SEKARANG!', 540, 1380);
     c.fillStyle = '#FFFFFF'; c.font = '700 27px system-ui';
-    c.fillText('Uji pengetahuanmu • Tingkatkan literasi demokrasi', 540, 1250);
-    c.fillText('Bagikan hasilmu dan ajak teman ikut mencoba SiLani!', 540, 1290);
+    c.fillText('Uji pengetahuanmu • Tingkatkan literasi demokrasi', 540, 1460);
+    c.fillText('Bagikan hasilmu dan ajak teman ikut mencoba SiLani!', 540, 1500);
     const blob = await new Promise(resolve => {
       if (canvas.toBlob) canvas.toBlob(resolve, 'image/png');
       else { try { const raw = atob(canvas.toDataURL('image/png').split(',')[1]); const bytes = new Uint8Array(raw.length); for (let i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i); resolve(new Blob([bytes], {type:'image/png'})); } catch (_) { resolve(null); } }
@@ -160,27 +161,27 @@
     const url = URL.createObjectURL(lastBlob), a = document.createElement('a');
     a.href = url; a.download = `hasil-misi-kawal-demokrasi-${lastResult.code || 'silani'}.png`;
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1500);
-    status('Gambar PNG berhasil disiapkan untuk diunduh.');
+    status('Gambar PNG berhasil disiapkan untuk diunduh.'); trackShare('download_png','completed');
   }
   async function share() {
     if (!lastBlob) { status('Kartu belum tersedia. Silakan coba unduh gambar.'); return; }
     const file = new File([lastBlob], 'hasil-misi-kawal-demokrasi.png', { type: 'image/png' });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      try { await navigator.share({ title: 'Hasil Misi Kawal Demokrasi', text: messageFor(lastResult), files: [file] }); }
+      try { await navigator.share({ title: 'Hasil Misi Kawal Demokrasi', text: messageFor(lastResult), files: [file] }); trackShare('native_share','completed'); }
       catch (e) { if (e.name !== 'AbortError') status('Berbagi tidak tersedia. Silakan unduh PNG atau gunakan WhatsApp.'); }
     } else {
       download(); status('Perangkat tidak mendukung berbagi gambar langsung. PNG diunduh; lanjutkan membagikannya dari galeri.');
     }
   }
-  function whatsapp() { if (!lastResult) return; window.open('https://wa.me/?text=' + encodeURIComponent(messageFor(lastResult)), '_blank', 'noopener'); }
+  function whatsapp() { if (!lastResult) return; trackShare('whatsapp','initiated'); window.open('https://wa.me/?text=' + encodeURIComponent(messageFor(lastResult)), '_blank', 'noopener'); }
   async function copyMessage() {
-    try { await navigator.clipboard.writeText(messageFor(lastResult)); status('Pesan ajakan berhasil disalin.'); }
+    try { await navigator.clipboard.writeText(messageFor(lastResult)); status('Pesan ajakan berhasil disalin.'); trackShare('copy_link','completed'); }
     catch (_) { status(messageFor(lastResult)); }
   }
   async function open(result) {
     try {
       const score = Math.max(0, Math.min(100, Math.round(Number(result && result.score) || 0)));
-      lastResult = Object.assign({}, result, { score });
+      lastResult = Object.assign({}, result, { score, shareUrl: location.origin + location.pathname + '?utm_source=silani&utm_medium=share&utm_campaign=misi_kawal_demokrasi' });
       ensureModal(); $('silani-result-share').classList.add('open'); status('Menyiapkan kartu hasil…');
       const built = await buildCard(lastResult);
       lastBlob = built.blob;

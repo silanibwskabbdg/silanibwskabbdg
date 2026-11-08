@@ -64,7 +64,7 @@ function navigate(url,push){
    if(n.tagName==='SCRIPT'){scripts.push(n);return;}
    document.body.appendChild(n.cloneNode(true));
   });
-  runScripts(scripts).then(updateLinks);
+  runScripts(scripts).then(function(){ updateLinks(); if(window.SiLaniAnalytics) window.SiLaniAnalytics.pageView(doc.title,url); });
   window.scrollTo(0,0);
  }).catch(function(err){
   console.warn('Navigasi SiLani menggunakan pemuatan biasa:',err);
