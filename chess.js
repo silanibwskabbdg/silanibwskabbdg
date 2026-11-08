@@ -16,10 +16,10 @@ function render(){
  const b=game.board();
  ranks().forEach((rank,ri)=>files().forEach((file,fi)=>{
   const sq=file+rank,cell=b[8-rank][file.charCodeAt(0)-97],el=document.createElement('button');
-  el.type='button';el.className='square '+(((ri+fi)%2===0)?'light':'dark');el.dataset.square=sq;el.setAttribute('role','gridcell');el.setAttribute('aria-label',sq);
+  el.type='button';el.className='square '+(((ri+fi)%2===0)?'light':'dark');el.dataset.square=sq;el.setAttribute('role','gridcell');el.setAttribute('aria-label','Kotak '+sq+(cell?', '+(cell.color==='w'?'Putih ':'Hitam ')+({k:'Raja',q:'Menteri',r:'Benteng',b:'Gajah',n:'Kuda',p:'Pion'}[cell.type]):''));
   if(selected===sq)el.classList.add('selected');
   if(lastMove&&(lastMove.from===sq||lastMove.to===sq))el.classList.add('last-move');
-  if(cell){const piece=document.createElement('span');piece.className='piece '+(cell.color==='w'?'white-piece':'black-piece');piece.textContent=glyph[cell.color+cell.type];el.appendChild(piece);}
+  if(cell){const piece=document.createElement('span');piece.className='piece '+(cell.color==='w'?'white-piece':'black-piece')+' piece-'+cell.type;piece.textContent=glyph[cell.color+cell.type];piece.setAttribute('aria-hidden','true');const emblem=document.createElement('span');emblem.className='piece-emblem';emblem.setAttribute('aria-hidden','true');piece.appendChild(emblem);el.appendChild(piece);}
   if(legal.some(m=>m.to===sq)){el.classList.add(cell?'capture-target':'move-target');}
   el.addEventListener('click',()=>clickSquare(sq));boardEl.appendChild(el);
  }));

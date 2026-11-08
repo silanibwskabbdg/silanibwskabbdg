@@ -1,23 +1,37 @@
-/* Catur SiLani */
-.chess-hero .hero-in{align-items:center}.chess-hero h1{font-size:clamp(2.4rem,5vw,4rem);color:#fff;margin:.3rem 0 .7rem;text-shadow:0 2px 18px #250b12a8}.chess-hero-piece{font-size:clamp(8rem,18vw,14rem);line-height:.8;color:#f7d88d;text-shadow:0 15px 30px #210b1260;padding-right:6vw}
-.chess-main{padding:28px 0 64px}.chess-back{margin:0 0 16px}.chess-back a{color:#8e1e2a;font-weight:800;text-decoration:none}
+/* Catur SiLani — Bawaslu identity edition */
+.chess-hero .hero-in{align-items:center}
+.chess-hero h1{font-size:clamp(2.4rem,5vw,4rem);color:#fff;margin:.3rem 0 .7rem;text-shadow:0 2px 18px #250b12a8}
+.chess-hero-piece{font-size:clamp(8rem,18vw,14rem);line-height:.8;color:#f7d88d;text-shadow:0 15px 30px #210b1260;padding-right:6vw;position:relative}
+.chess-hero-piece:after{content:"BAWASLU";display:block;font:900 .72rem/1.2 Arial,sans-serif;letter-spacing:.24em;text-align:center;color:#f7d88d;margin-top:16px;text-shadow:none}
+.chess-main{padding:28px 0 64px}
+.chess-back{margin:0 0 16px}.chess-back a{color:#8e1e2a;font-weight:800;text-decoration:none}
 .chess-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.75fr);gap:20px;align-items:start}
 .chess-board-card,.chess-panel{background:#fff;border:1px solid #eadfe0;border-radius:22px;padding:20px;box-shadow:0 15px 40px #3610180d}
-.board-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.board-kicker{font-size:.68rem;font-weight:900;letter-spacing:.13em;color:#a27b45}.board-top h2{font-family:Georgia,serif;color:#4c151d;font-size:1.45rem;margin:5px 0 0}
+.board-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.board-kicker{font-size:.68rem;font-weight:900;letter-spacing:.13em;color:#a27b45}
+.board-top h2{font-family:Georgia,serif;color:#4c151d;font-size:1.45rem;margin:5px 0 0}
 .turn-indicator{background:#f8eeeb;color:#8f1e2b;padding:8px 12px;border-radius:99px;font-size:.78rem;font-weight:800;white-space:nowrap}
+.chess-board-ribbon{display:flex;align-items:center;justify-content:center;gap:10px;padding:8px 12px;margin:0 auto 14px;border-radius:12px;background:linear-gradient(100deg,#26394d,#344d5d);color:#fff5df;box-shadow:inset 0 1px #ffffff30;letter-spacing:.12em;font-size:.66rem;font-weight:900}
+.chess-board-ribbon img{width:24px;height:24px;object-fit:contain;background:#fffaf0;border-radius:50%;padding:2px}
+.chess-board-ribbon i{width:4px;height:4px;border-radius:50%;background:#e2b85d;display:block}
 .board-wrap{width:min(100%,620px);margin:auto;display:grid;grid-template-columns:22px 1fr;grid-template-rows:1fr 22px;gap:4px}
-.rank-labels{display:flex;flex-direction:column;justify-content:space-around;text-align:center;color:#7b6b62;font-weight:700;font-size:.75rem}
-.file-labels{grid-column:2;display:grid;grid-template-columns:repeat(8,1fr);text-align:center;color:#7b6b62;font-weight:700;font-size:.75rem}
-.chess-board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);border:5px solid #503b31;border-radius:5px;overflow:hidden;box-shadow:0 8px 22px #271a1720}
-.square{border:0;border-radius:0;display:grid;place-items:center;position:relative;cursor:pointer;padding:0;min-width:0;min-height:0}
-.square.light{background:#f1dfbd}.square.dark{background:#9b704f}
-.square .piece{font-family:"Arial Unicode MS", "DejaVu Sans",serif;font-size:clamp(1.55rem,4.4vw,3.2rem);line-height:1;z-index:2;user-select:none}
-.white-piece{color:#fffdf4;text-shadow:0 1px 1px #47352b,1px 2px 2px #47352b,-1px -1px 0 #47352b}
-.black-piece{color:#29252a;text-shadow:0 1px 1px #fff5e2}
-.square.selected{box-shadow:inset 0 0 0 4px #e3b84e}
-.square.last-move:after{content:"";position:absolute;inset:0;background:#e9cf5680}
-.square.move-target:before{content:"";width:23%;height:23%;border-radius:50%;background:#3c6e4b99;position:absolute}
-.square.capture-target:before{content:"";position:absolute;inset:4%;border:5px solid #9d2533a8;border-radius:50%}
+.rank-labels{display:flex;flex-direction:column;justify-content:space-around;text-align:center;color:#8f2733;font-weight:800;font-size:.75rem}
+.file-labels{grid-column:2;display:grid;grid-template-columns:repeat(8,1fr);text-align:center;color:#8f2733;font-weight:800;font-size:.75rem}
+.chess-board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);border:7px solid #26394d;border-radius:10px;overflow:hidden;box-shadow:0 0 0 2px #d6b36c,0 12px 28px #271a1725;background-color:#f8f0df;background-image:url('bawaslu-symbol.png');background-size:38% auto;background-position:center;background-repeat:no-repeat}
+.square{border:0;border-radius:0;display:grid;place-items:center;position:relative;cursor:pointer;padding:0;min-width:0;min-height:0;isolation:isolate}
+.square.light{background:rgba(250,243,228,.94)}.square.dark{background:rgba(143,45,57,.91)}
+.square .piece{font-family:"Arial Unicode MS","DejaVu Sans",serif;font-size:clamp(1.55rem,4.4vw,3.2rem);line-height:1;z-index:2;user-select:none;position:relative;display:grid;place-items:center;width:82%;height:82%;box-sizing:border-box;border-radius:13px 13px 10px 10px;transition:transform .12s,box-shadow .12s}
+.square:focus-visible{outline:3px solid #f0c45e;outline-offset:-4px;z-index:4}
+.white-piece{color:#9b1e2c;background:linear-gradient(145deg,#fffdf7,#f0dfbd);border:2px solid #d7b366;text-shadow:0 1px 0 #fff;box-shadow:0 3px 0 #c9a15a,0 5px 8px #251b1820}
+.black-piece{color:#ffedc3;background:linear-gradient(145deg,#40566a,#1e3041);border:2px solid #b62b38;text-shadow:0 1px 1px #18212a;box-shadow:0 3px 0 #7e1d28,0 5px 8px #251b1825}
+.piece-emblem{position:absolute;right:-8%;bottom:-8%;width:27%;aspect-ratio:1;border-radius:50%;background:#fff8e9 url('bawaslu-symbol.png') center/contain no-repeat;border:1.5px solid #d6ad5f;box-shadow:0 1px 3px #281b1b55;pointer-events:none}
+.black-piece .piece-emblem{background-color:#fff5df;border-color:#e1bd68}
+.white-piece.piece-k,.black-piece.piece-k{border-radius:50% 50% 13px 13px}
+.square.selected{box-shadow:inset 0 0 0 4px #edc24e}
+.square.selected .piece{transform:translateY(-3px);box-shadow:0 0 0 3px #edc24e,0 5px 12px #271a1740}
+.square.last-move:after{content:"";position:absolute;inset:0;background:#e9cf5670;z-index:1;pointer-events:none}
+.square.move-target:before{content:"";width:23%;height:23%;border-radius:50%;background:#e1b957cc;position:absolute;z-index:1;box-shadow:0 1px 4px #45321c55}
+.square.capture-target:before{content:"";position:absolute;inset:4%;border:4px solid #f4d27a;border-radius:18%;z-index:1}
 .board-actions{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 8px}.board-actions button{border:0;border-radius:11px;padding:11px 15px;font:inherit;font-size:.88rem;font-weight:800;cursor:pointer}
 .chess-primary{background:#a51e2c;color:white}.chess-secondary{background:#f4e9e6;color:#67202a}
 .board-help{font-size:.83rem;color:#68717c;line-height:1.5;margin:10px 0 0}
@@ -27,4 +41,4 @@
 .chess-tips h3{margin:0 0 10px;color:#4c151d;font-family:Georgia,serif}.chess-tips ul{padding-left:19px;margin:0;color:#646b75;font-size:.88rem;line-height:1.7}
 .game-back{margin:0 0 16px}.game-back a{color:#8e1e2a;font-weight:800;text-decoration:none}
 @media(max-width:800px){.chess-layout{grid-template-columns:1fr}.chess-board-card{padding:12px}.board-wrap{width:min(100%,560px)}.chess-hero-piece{padding-right:0}.board-top h2{font-size:1.15rem}}
-@media(max-width:420px){.chess-hero .hero-in{min-height:260px}.chess-hero-piece{font-size:6rem}.board-wrap{grid-template-columns:17px 1fr}.chess-board{border-width:3px}.square .piece{font-size:clamp(1.3rem,8vw,2rem)}.square.capture-target:before{border-width:3px}.chess-board-card{padding:9px}.board-actions button{flex:1;padding:10px 8px;font-size:.8rem}}
+@media(max-width:420px){.chess-hero .hero-in{min-height:260px}.chess-hero-piece{font-size:6rem}.chess-board-ribbon{gap:6px;padding:7px 6px;font-size:.54rem;letter-spacing:.08em}.chess-board-ribbon img{width:20px;height:20px}.board-wrap{grid-template-columns:17px 1fr}.chess-board{border-width:4px;border-radius:7px}.square .piece{font-size:clamp(1.25rem,7.2vw,2rem);width:86%;height:86%;border-radius:9px}.piece-emblem{width:24%;right:-7%;bottom:-7%;border-width:1px}.square.capture-target:before{border-width:3px}.chess-board-card{padding:9px}.board-actions button{flex:1;padding:10px 8px;font-size:.8rem}.chess-board-ribbon{margin-bottom:10px}}
