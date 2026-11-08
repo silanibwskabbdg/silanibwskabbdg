@@ -11,21 +11,18 @@
 .board-kicker{font-size:.68rem;font-weight:900;letter-spacing:.13em;color:#a27b45}
 .board-top h2{font-family:Georgia,serif;color:#4c151d;font-size:1.45rem;margin:5px 0 0}
 .turn-indicator{background:#f8eeeb;color:#8f1e2b;padding:8px 12px;border-radius:99px;font-size:.78rem;font-weight:800;white-space:nowrap}
-.chess-board-ribbon{display:flex;align-items:center;justify-content:center;gap:10px;padding:8px 12px;margin:0 auto 14px;border-radius:12px;background:linear-gradient(100deg,#26394d,#344d5d);color:#fff5df;box-shadow:inset 0 1px #ffffff30;letter-spacing:.12em;font-size:.66rem;font-weight:900}
-.chess-board-ribbon img{width:24px;height:24px;object-fit:contain;background:#fffaf0;border-radius:50%;padding:2px}
-.chess-board-ribbon i{width:4px;height:4px;border-radius:50%;background:#e2b85d;display:block}
 .board-wrap{width:min(100%,620px);margin:auto;display:grid;grid-template-columns:22px 1fr;grid-template-rows:1fr 22px;gap:4px}
 .rank-labels{display:flex;flex-direction:column;justify-content:space-around;text-align:center;color:#8f2733;font-weight:800;font-size:.75rem}
 .file-labels{grid-column:2;display:grid;grid-template-columns:repeat(8,1fr);text-align:center;color:#8f2733;font-weight:800;font-size:.75rem}
-.chess-board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);border:7px solid #26394d;border-radius:10px;overflow:hidden;box-shadow:0 0 0 2px #d6b36c,0 12px 28px #271a1725;background-color:#f8f0df;background-image:url('bawaslu-symbol.png');background-size:38% auto;background-position:center;background-repeat:no-repeat}
+.chess-board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);border:7px solid #26394d;border-radius:12px;overflow:hidden;box-shadow:0 0 0 2px #d6b36c,0 0 0 5px #8f2733,0 14px 30px #271a1730;background-color:#f8f0df;background-image:url('bawaslu-board-mark.png');background-size:42% auto;background-position:center;background-repeat:no-repeat}
 .square{border:0;border-radius:0;display:grid;place-items:center;position:relative;cursor:pointer;padding:0;min-width:0;min-height:0;isolation:isolate}
-.square.light{background:rgba(250,243,228,.94)}.square.dark{background:rgba(143,45,57,.91)}
+.square.light{background:rgba(250,243,228,.80)}.square.dark{background:rgba(143,45,57,.82)}
 .square .piece{font-family:"Arial Unicode MS","DejaVu Sans",serif;font-size:clamp(1.55rem,4.4vw,3.2rem);line-height:1;z-index:2;user-select:none;position:relative;display:grid;place-items:center;width:82%;height:82%;box-sizing:border-box;border-radius:13px 13px 10px 10px;transition:transform .12s,box-shadow .12s}
 .square:focus-visible{outline:3px solid #f0c45e;outline-offset:-4px;z-index:4}
 .white-piece{color:#9b1e2c;background:linear-gradient(145deg,#fffdf7,#f0dfbd);border:2px solid #d7b366;text-shadow:0 1px 0 #fff;box-shadow:0 3px 0 #c9a15a,0 5px 8px #251b1820}
-.black-piece{color:#ffedc3;background:linear-gradient(145deg,#40566a,#1e3041);border:2px solid #b62b38;text-shadow:0 1px 1px #18212a;box-shadow:0 3px 0 #7e1d28,0 5px 8px #251b1825}
-.piece-emblem{position:absolute;right:-8%;bottom:-8%;width:27%;aspect-ratio:1;border-radius:50%;background:#fff8e9 url('bawaslu-symbol.png') center/contain no-repeat;border:1.5px solid #d6ad5f;box-shadow:0 1px 3px #281b1b55;pointer-events:none}
-.black-piece .piece-emblem{background-color:#fff5df;border-color:#e1bd68}
+.black-piece{color:#151a20;background:linear-gradient(145deg,#edf0f2,#aab5bf);border:2px solid #26394d;text-shadow:0 1px 0 #ffffffb8;-webkit-text-stroke:.35px #111820;box-shadow:0 3px 0 #26394d,0 5px 9px #151a202e}
+.piece-emblem{position:absolute;right:-7%;bottom:-7%;width:29%;aspect-ratio:1;border-radius:50%;background:#fff8e9 url('bawaslu-board-mark.png') center/82% 82% no-repeat;border:1.5px solid #d6ad5f;box-shadow:0 1px 4px #281b1b70;pointer-events:none}
+.black-piece .piece-emblem{background-color:#fff8e9;border-color:#9c7b3e}
 .white-piece.piece-k,.black-piece.piece-k{border-radius:50% 50% 13px 13px}
 .square.selected{box-shadow:inset 0 0 0 4px #edc24e}
 .square.selected .piece{transform:translateY(-3px);box-shadow:0 0 0 3px #edc24e,0 5px 12px #271a1740}
@@ -41,4 +38,12 @@
 .chess-tips h3{margin:0 0 10px;color:#4c151d;font-family:Georgia,serif}.chess-tips ul{padding-left:19px;margin:0;color:#646b75;font-size:.88rem;line-height:1.7}
 .game-back{margin:0 0 16px}.game-back a{color:#8e1e2a;font-weight:800;text-decoration:none}
 @media(max-width:800px){.chess-layout{grid-template-columns:1fr}.chess-board-card{padding:12px}.board-wrap{width:min(100%,560px)}.chess-hero-piece{padding-right:0}.board-top h2{font-size:1.15rem}}
-@media(max-width:420px){.chess-hero .hero-in{min-height:260px}.chess-hero-piece{font-size:6rem}.chess-board-ribbon{gap:6px;padding:7px 6px;font-size:.54rem;letter-spacing:.08em}.chess-board-ribbon img{width:20px;height:20px}.board-wrap{grid-template-columns:17px 1fr}.chess-board{border-width:4px;border-radius:7px}.square .piece{font-size:clamp(1.25rem,7.2vw,2rem);width:86%;height:86%;border-radius:9px}.piece-emblem{width:24%;right:-7%;bottom:-7%;border-width:1px}.square.capture-target:before{border-width:3px}.chess-board-card{padding:9px}.board-actions button{flex:1;padding:10px 8px;font-size:.8rem}.chess-board-ribbon{margin-bottom:10px}}
+@media(max-width:420px){.chess-hero .hero-in{min-height:260px}.chess-hero-piece{font-size:6rem}.board-wrap{grid-template-columns:17px 1fr}.chess-board{border-width:4px;border-radius:7px}.square .piece{font-size:clamp(1.25rem,7.2vw,2rem);width:86%;height:86%;border-radius:9px}.piece-emblem{width:24%;right:-7%;bottom:-7%;border-width:1px}.square.capture-target:before{border-width:3px}.chess-board-card{padding:10px}.board-actions button{flex:1;padding:10px 8px;font-size:.8rem}}
+
+
+/* Bawaslu Chess Edition v10: clearer side colors and board watermark. */
+.square .piece{overflow:visible}
+.white-piece{border-color:#c7a45c}
+.black-piece .piece-emblem{box-shadow:0 1px 4px #10182055}
+.square.selected .piece{filter:brightness(1.04)}
+@media(max-width:420px){.chess-board{box-shadow:0 0 0 1.5px #d6b36c,0 0 0 4px #8f2733,0 10px 22px #271a1728}.piece-emblem{width:27%}}
