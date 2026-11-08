@@ -11,14 +11,14 @@
 @media(max-width:560px){.misi-music-control{right:14px;bottom:16px;padding:12px 14px}.misi-music-control .music-state{font-size:13px}}
 </style>
 </head><body>
-<audio id="misiMars" preload="auto" loop>
+<audio id="mars" preload="auto" loop>
   <source src="MARS%20PENGAWAS%20PEMILU%20(1).mp3" type="audio/mpeg">
 </audio>
-<button id="misiMusicBtn" class="misi-music-control" type="button" aria-pressed="false" aria-label="Putar Mars Pengawas Pemilu">
+<button id="musicBtn" class="music" type="button" aria-pressed="false" aria-label="Putar Mars Pengawas Pemilu">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
   </svg>
-  <span class="music-state" id="misiMusicLabel">Putar mars</span>
+  <span class="music-label" id="musicLabel">Putar mars</span>
 </button>
 <script>
 (function(){
@@ -55,4 +55,4 @@ function show(id){['start','quiz','result'].forEach(x=>$(x).classList.toggle('mi
 function render(){const q=session[index];$('counter').textContent=`Soal ${index+1} dari ${session.length}`;$('level').textContent=q.level[0].toUpperCase()+q.level.slice(1);$('progress').style.width=`${index/session.length*100}%`;$('question').textContent=q.q;$('answered').textContent='Pilih satu jawaban.';$('next').disabled=true;$('next').textContent=index===9?'Lihat hasil':'Berikutnya';$('options').innerHTML='';q.a.forEach((choice,i)=>{const b=document.createElement('button');b.className='misi-option';b.type='button';b.textContent=String.fromCharCode(65+i)+'. '+choice;b.addEventListener('click',()=>{answers[index]=i;[...$('options').children].forEach(el=>el.classList.remove('selected'));b.classList.add('selected');$('next').disabled=false;$('answered').textContent='Jawaban dipilih.'});$('options').appendChild(b)});}
 function finish(){const correct=answers.reduce((n,a,i)=>n+(a===session[i].k?1:0),0),score=correct*10;resultCode='MKD-'+new Date().toISOString().slice(0,10).replaceAll('-','')+'-'+Math.random().toString(36).slice(2,7).toUpperCase();const band=window.SiLaniShareResult.bandFor(score);$('score').textContent=score;$('correct').textContent=`${correct}/10`;$('rank').textContent=band.title;$('result-code').textContent='Kode hasil: '+resultCode;$('review').innerHTML='';session.forEach((q,i)=>{const ok=answers[i]===q.k;const d=document.createElement('article');d.className='misi-review';const h=document.createElement('strong');h.textContent=`${i+1}. ${q.q}`;const p=document.createElement('p');p.textContent=(ok?'Benar. ':'Belum tepat. ')+`Jawaban benar: ${String.fromCharCode(65+q.k)}. ${q.a[q.k]}`;const why=document.createElement('p');why.textContent=q.why;const s=document.createElement('small');s.textContent=`Dasar: ${q.src} · `;const a=document.createElement('a');a.href=q.url;a.target='_blank';a.rel='noopener';a.textContent='JDIH / sumber';s.appendChild(a);d.append(h,p,why,s);$('review').appendChild(d)});show('result');window.__misiResult={score,correct,total:10,code:resultCode,shareUrl:location.href};}
 $('begin').addEventListener('click',()=>{if(bank.filter(x=>x.level==='mudah').length<3||bank.filter(x=>x.level==='sedang').length<5||bank.filter(x=>x.level==='sulit').length<2){alert('Bank soal belum memenuhi komposisi sesi.');return}makeSession();show('quiz');render()});$('next').addEventListener('click',()=>{if(answers[index]===null)return;if(index<9){index++;render()}else finish()});$('retry').addEventListener('click',()=>{makeSession();show('quiz');render()});$('share-result').addEventListener('click',()=>{if(window.__misiResult)window.SiLaniShareResult.open(window.__misiResult)});
-})();</script></body></html>
+})();</script><script src="persistent-player.js?v=20261108-persistent-audio"></script></body></html>
