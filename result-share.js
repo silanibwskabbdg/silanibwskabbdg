@@ -16,7 +16,14 @@
   function bandFor(score) { return BANDS.find(b => score >= b.min && score <= b.max) || BANDS[0]; }
   function safeText(value, fallback) { return String(value == null || value === '' ? fallback : value); }
   function rounded(ctx, x, y, w, h, r) {
-    ctx.beginPath(); ctx.roundRect(x, y, w, h, r);
+    ctx.beginPath();
+    if (typeof ctx.roundRect === 'function') { ctx.roundRect(x, y, w, h, r); return; }
+    const radius = Math.min(r, w / 2, h / 2);
+    ctx.moveTo(x + radius, y); ctx.lineTo(x + w - radius, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + radius);
+    ctx.lineTo(x + w, y + h - radius); ctx.quadraticCurveTo(x + w, y + h, x + w - radius, y + h);
+    ctx.lineTo(x + radius, y + h); ctx.quadraticCurveTo(x, y + h, x, y + h - radius);
+    ctx.lineTo(x, y + radius); ctx.quadraticCurveTo(x, y, x + radius, y); ctx.closePath();
   }
   function fitText(ctx, text, x, y, maxWidth, size, weight, color) {
     ctx.fillStyle = color; ctx.font = `${weight} ${size}px system-ui, sans-serif`;
@@ -103,7 +110,11 @@
     c.fillStyle = '#FFFFFF'; c.font = '700 27px system-ui';
     c.fillText('Uji pengetahuanmu • Tingkatkan literasi demokrasi', 540, 1250);
     c.fillText('Bagikan hasilmu dan ajak teman ikut mencoba SiLani!', 540, 1290);
-    return { canvas, blob: await new Promise(resolve => canvas.toBlob(resolve, 'image/png')), band, score, correct, total };
+    const blob = await new Promise(resolve => {
+      if (canvas.toBlob) canvas.toBlob(resolve, 'image/png');
+      else { try { const raw = atob(canvas.toDataURL('image/png').split(',')[1]); const bytes = new Uint8Array(raw.length); for (let i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i); resolve(new Blob([bytes], {type:'image/png'})); } catch (_) { resolve(null); } }
+    });
+    return { canvas, blob, band, score, correct, total };
   }
 
   function messageFor(r) {
@@ -145,14 +156,14 @@
   function status(msg) { const el = $('sr-status'); if (el) el.textContent = msg || ''; }
   function close() { const el = $('silani-result-share'); if (el) el.classList.remove('open'); }
   function download() {
-    if (!lastBlob) return;
+    if (!lastBlob) { status('Kartu belum berhasil dibuat. Coba lagi atau gunakan Bagikan via WhatsApp.'); return; }
     const url = URL.createObjectURL(lastBlob), a = document.createElement('a');
     a.href = url; a.download = `hasil-misi-kawal-demokrasi-${lastResult.code || 'silani'}.png`;
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1500);
     status('Gambar PNG berhasil disiapkan untuk diunduh.');
   }
   async function share() {
-    if (!lastBlob) return;
+    if (!lastBlob) { status('Kartu belum tersedia. Silakan coba unduh gambar.'); return; }
     const file = new File([lastBlob], 'hasil-misi-kawal-demokrasi.png', { type: 'image/png' });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
       try { await navigator.share({ title: 'Hasil Misi Kawal Demokrasi', text: messageFor(lastResult), files: [file] }); }
@@ -161,21 +172,26 @@
       download(); status('Perangkat tidak mendukung berbagi gambar langsung. PNG diunduh; lanjutkan membagikannya dari galeri.');
     }
   }
-  function whatsapp() { window.open('https://wa.me/?text=' + encodeURIComponent(messageFor(lastResult)), '_blank', 'noopener'); }
+  function whatsapp() { if (!lastResult) return; window.open('https://wa.me/?text=' + encodeURIComponent(messageFor(lastResult)), '_blank', 'noopener'); }
   async function copyMessage() {
     try { await navigator.clipboard.writeText(messageFor(lastResult)); status('Pesan ajakan berhasil disalin.'); }
     catch (_) { status(messageFor(lastResult)); }
   }
   async function open(result) {
-    const score = Math.max(0, Math.min(100, Math.round(Number(result && result.score) || 0)));
-    lastResult = Object.assign({}, result, { score });
-    ensureModal(); status('Menyiapkan kartu hasil…');
-    const built = await buildCard(lastResult);
-    lastBlob = built.blob;
-    $('sr-preview').src = built.canvas.toDataURL('image/png');
-    $('silani-result-share').classList.add('open');
-    status('Kartu hasil siap dibagikan.');
-    return { score: built.score, band: built.band.title, blob: built.blob };
+    try {
+      const score = Math.max(0, Math.min(100, Math.round(Number(result && result.score) || 0)));
+      lastResult = Object.assign({}, result, { score });
+      ensureModal(); $('silani-result-share').classList.add('open'); status('Menyiapkan kartu hasil…');
+      const built = await buildCard(lastResult);
+      lastBlob = built.blob;
+      $('sr-preview').src = built.canvas.toDataURL('image/png');
+      status(lastBlob ? 'Kartu hasil siap. Pilih cara membagikan.' : 'Pratinjau siap, tetapi perangkat tidak dapat membuat file PNG. Gunakan WhatsApp untuk membagikan tautan dan pesan.');
+      return { score: built.score, band: built.band.title, blob: built.blob };
+    } catch (err) {
+      ensureModal(); $('silani-result-share').classList.add('open');
+      status('Kartu gagal dibuat pada perangkat ini. Coba muat ulang halaman, atau bagikan pesan melalui WhatsApp.');
+      console.error('SiLani result card error:', err); return null;
+    }
   }
   window.SiLaniShareResult = { open, bandFor, bands: BANDS.slice(), messageFor };
 })();
