@@ -711,3 +711,39 @@ details[open]>summary .chev{transform:rotate(180deg)}
 .footer-bottom p{margin:0}.footer-bottom p:last-child{max-width:660px;text-align:right}
 @media(max-width:900px){.footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.footer-bottom{flex-direction:column}.footer-bottom p:last-child{text-align:left}}
 @media(max-width:560px){.silani-footer{margin-top:34px}.footer-main{grid-template-columns:1fr;gap:24px;padding-top:30px;padding-bottom:26px}.footer-logo-link{max-width:185px}.footer-main h2{margin-bottom:8px}.footer-links,.footer-contact,.footer-address{gap:8px}.footer-bottom{padding-top:14px;padding-bottom:20px}}
+
+
+/* FIX: Tombol mars tidak menutupi navigasi SiLani */
+#musicBtn {
+  position: fixed !important;
+  top: auto !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  z-index: 100 !important;
+  box-shadow: 0 5px 18px rgba(0,0,0,.22) !important;
+}
+
+/* Tampilan mobile */
+@media (max-width: 700px) {
+  #musicBtn {
+    right: 14px !important;
+    bottom: 14px !important;
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+  }
+
+  #musicBtn .music-label {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+  }
+}
+
