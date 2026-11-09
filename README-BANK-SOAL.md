@@ -24,3 +24,9 @@ Sebelum publikasi, tim substansi/hukum perlu memeriksa setiap butir terhadap nas
 - Perbawaslu 7 Tahun 2022: https://jdih.bawaslu.go.id/peraturan/view/40022902
 - Perbawaslu 9 Tahun 2022: https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum
 - JDIH Bawaslu: https://jdih.bawaslu.go.id/peraturan/perbawaslu
+
+
+## Mode Misi tingkat SMA
+- Sesi Misi Kawal Demokrasi mengambil 10 soal secara acak dari 15 soal berkategori `sma`.
+- Soal menekankan analisis kasus, verifikasi informasi, etika pengawasan, pembedaan objek sengketa, dan evaluasi partisipasi.
+- Rujukan pada setiap soal merupakan rujukan awal untuk pemeriksaan substansi. Tim hukum/substansi perlu memvalidasi ketepatan pasal, status keberlakuan, dan kesesuaian penerapan sebelum publikasi resmi.

@@ -1,4 +1,4 @@
-/* Bank soal kurasi awal: pertanyaan unik, bahasa sederhana, rujukan dicantumkan per butir. */
+/* Bank soal SiLani: soal kurasi dasar dan soal analisis tingkat SMA. */
 window.SiLaniQuestionBank = [
   {
     "id": "MKD-001",
@@ -1102,6 +1102,246 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas bebas menjamin pemilih menentukan pilihan tanpa paksaan atau tekanan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
+    "url": "https://jdih.dpr.go.id/"
+  },
+  {
+    "id": "MKD-SMA-001",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Dalam masa kampanye, seorang pejabat daerah mengunggah ajakan memilih calon tertentu melalui akun resmi instansi. Analisis awal yang paling tepat adalah ...",
+    "a": [
+      "Perlu diperiksa apakah penggunaan jabatan, fasilitas, atau sumber daya negara menguntungkan peserta tertentu",
+      "Pasti bukan masalah karena unggahan dilakukan di media sosial",
+      "Otomatis menjadi tindak pidana tanpa perlu pemeriksaan",
+      "Hanya menjadi urusan internal instansi dan tidak terkait Pemilu"
+    ],
+    "k": 0,
+    "why": "Penilaian harus berangkat dari fakta penggunaan jabatan atau fasilitas negara serta ketentuan netralitas dan larangan yang berlaku. Pengawas perlu mendokumentasikan konteks, akun, waktu, dan hubungan konten dengan kampanye sebelum menyimpulkan.",
+    "src": "UU Nomor 7 Tahun 2017; ketentuan netralitas ASN; Perbawaslu tentang pengawasan kampanye",
+    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+  },
+  {
+    "id": "MKD-SMA-002",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Sebuah unggahan viral menuduh calon melakukan politik uang, tetapi video tidak menunjukkan lokasi, waktu, maupun identitas pihak yang terlibat. Tindakan verifikasi paling tepat adalah ...",
+    "a": [
+      "Melacak sumber asli, memeriksa metadata/konteks yang tersedia, dan mencari keterangan atau bukti pendukung independen",
+      "Langsung menyebarkan ulang agar masyarakat waspada",
+      "Menganggap tuduhan benar karena sudah dibagikan banyak akun",
+      "Menghapus semua komentar tanpa mendokumentasikan temuan"
+    ],
+    "k": 0,
+    "why": "Popularitas konten bukan bukti kebenaran. Verifikasi perlu memeriksa sumber pertama, konteks waktu dan tempat, keutuhan rekaman, serta bukti atau keterangan pendukung.",
+    "src": "Perbawaslu Nomor 7 Tahun 2022; Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-SMA-003",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Pengawas menerima laporan dugaan pelanggaran yang disertai tangkapan layar percakapan, tetapi pelapor tidak dapat menjelaskan asal percakapan. Apa fokus klarifikasi awal?",
+    "a": [
+      "Memastikan identitas dan kapasitas pelapor, asal-usul bukti, waktu, tempat, serta pihak yang diduga terlibat",
+      "Menentukan sanksi sebelum memeriksa bukti",
+      "Menganggap tangkapan layar selalu autentik",
+      "Menolak seluruh laporan yang menggunakan bukti digital"
+    ],
+    "k": 0,
+    "why": "Klarifikasi awal membantu menilai keterkaitan informasi dengan peristiwa yang dilaporkan dan menelusuri asal-usul bukti digital. Tangkapan layar perlu diuji konteks dan keasliannya.",
+    "src": "Perbawaslu Nomor 7 Tahun 2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-SMA-004",
+    "cat": "Konstitusi dan Demokrasi",
+    "level": "sma",
+    "q": "Seorang pemilih menyatakan pilihannya kepada orang lain karena takut bantuan sosialnya dihentikan jika tidak memilih calon tertentu. Prinsip Pemilu yang paling langsung terancam adalah ...",
+    "a": [
+      "Kebebasan dan kerahasiaan pilihan pemilih",
+      "Keserentakan penyelenggaraan Pemilu",
+      "Periodisasi masa jabatan anggota legislatif",
+      "Keterwakilan partai politik di parlemen"
+    ],
+    "k": 0,
+    "why": "Ancaman terhadap bantuan sosial dapat menjadi tekanan yang mengganggu kebebasan pemilih. Jika tekanan diarahkan untuk membuka atau mengendalikan pilihan, kerahasiaan dan kebebasan memilih juga terancam.",
+    "src": "UUD 1945 Pasal 22E ayat (1); UU Nomor 7 Tahun 2017",
+    "url": "https://jdih.dpr.go.id/"
+  },
+  {
+    "id": "MKD-SMA-005",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Dalam pengawasan pemutakhiran data pemilih, ditemukan satu warga tercatat di dua alamat. Kesimpulan dan tindak lanjut paling tepat adalah ...",
+    "a": [
+      "Menelusuri dokumen dan kondisi faktual, mencatat temuan, lalu menyampaikan saran perbaikan sesuai prosedur",
+      "Langsung menyatakan kedua data pasti palsu",
+      "Menghapus salah satu data oleh pengawas tanpa koordinasi",
+      "Membiarkan karena warga tersebut tetap dapat memilih di salah satu TPS"
+    ],
+    "k": 0,
+    "why": "Ketidaksesuaian data perlu diverifikasi melalui dokumen dan kondisi faktual. Pengawas mencatat hasil pengawasan dan menindaklanjuti melalui mekanisme yang berwenang, bukan mengubah daftar pemilih secara sepihak.",
+    "src": "Perbawaslu Nomor 1 Tahun 2025 tentang Pengawasan Pemutakhiran Data Pemilih Berkelanjutan",
+    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+  },
+  {
+    "id": "MKD-SMA-006",
+    "cat": "Hukum Pemilu",
+    "level": "sma",
+    "q": "Peserta Pemilu mempersoalkan keputusan KPU tentang tahapan pencalonan, sedangkan pihak lain mempersoalkan penetapan hasil perolehan suara. Mengapa keduanya tidak boleh otomatis diproses melalui jalur yang sama?",
+    "a": [
+      "Karena sengketa proses dan perselisihan hasil memiliki objek serta mekanisme penyelesaian yang berbeda",
+      "Karena semua persoalan Pemilu hanya dapat diselesaikan melalui mediasi informal",
+      "Karena keputusan KPU tidak dapat diuji melalui mekanisme hukum",
+      "Karena hasil suara hanya dapat dipersoalkan oleh pemilih perseorangan"
+    ],
+    "k": 0,
+    "why": "Objek sengketa proses berbeda dari perselisihan hasil. Penentuan jalur harus memperhatikan jenis keputusan atau objek yang dipersoalkan dan kewenangan lembaga penyelesaiannya.",
+    "src": "UU Nomor 7 Tahun 2017; Perbawaslu Nomor 9 Tahun 2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+  },
+  {
+    "id": "MKD-SMA-007",
+    "cat": "Etika dan Integritas",
+    "level": "sma",
+    "q": "Seorang pengawas mengetahui bahwa kerabat dekatnya menjadi tim kampanye peserta Pemilu di wilayah pengawasannya. Sikap profesional yang paling tepat adalah ...",
+    "a": [
+      "Mengungkap potensi konflik kepentingan dan mengikuti mekanisme penanganan atau penghindaran yang berlaku",
+      "Tetap menangani seluruh perkara karena merasa mampu bersikap objektif",
+      "Menyembunyikan hubungan keluarga selama tidak diketahui publik",
+      "Membantu kerabat selama dilakukan di luar jam kerja"
+    ],
+    "k": 0,
+    "why": "Hubungan pribadi yang berpotensi memengaruhi atau dipersepsikan memengaruhi objektivitas harus diungkap dan dikelola. Integritas menuntut pencegahan konflik kepentingan, bukan sekadar klaim netral.",
+    "src": "UU Nomor 7 Tahun 2017; Kode Etik Penyelenggara Pemilu",
+    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+  },
+  {
+    "id": "MKD-SMA-008",
+    "cat": "Partisipasi Masyarakat",
+    "level": "sma",
+    "q": "Kelompok warga mengumpulkan bukti dugaan pelanggaran, tetapi sebagian anggota ingin mengunggah identitas saksi dan alamat rumahnya. Pertimbangan utama sebelum publikasi adalah ...",
+    "a": [
+      "Melindungi keselamatan, privasi, dan integritas bukti serta menyalurkan informasi melalui prosedur yang tepat",
+      "Mengunggah seluruh data agar tekanan publik meningkat",
+      "Mengubah identitas saksi agar unggahan lebih menarik",
+      "Menyebarkan dokumen mentah tanpa pemeriksaan"
+    ],
+    "k": 0,
+    "why": "Pengawasan partisipatif harus memperhatikan keamanan pelapor dan saksi, perlindungan data pribadi, serta keutuhan bukti. Informasi sebaiknya disampaikan melalui kanal yang tepat dan tidak membuka data sensitif tanpa dasar.",
+    "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+  },
+  {
+    "id": "MKD-SMA-009",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Pada rekapitulasi, saksi menunjukkan salinan formulir yang angkanya berbeda dari data yang dibacakan. Langkah pengawasan yang paling kuat secara pembuktian adalah ...",
+    "a": [
+      "Mencatat perbedaan secara spesifik, mengamankan salinan dokumen relevan, dan meminta penjelasan melalui mekanisme rapat",
+      "Mengumumkan kecurangan sebelum membandingkan dokumen",
+      "Mengubah angka pada salinan saksi agar sama dengan data yang dibacakan",
+      "Mengabaikan karena perbedaan satu formulir tidak mungkin memengaruhi hasil"
+    ],
+    "k": 0,
+    "why": "Pengawasan perlu berbasis pencatatan yang spesifik dan pembandingan dokumen resmi. Keberatan atau koreksi harus ditempuh melalui tata cara rekapitulasi yang berlaku, bukan melalui perubahan sepihak atau kesimpulan prematur.",
+    "src": "UU Nomor 7 Tahun 2017; PKPU Nomor 25 Tahun 2023",
+    "url": "https://jdih.kpu.go.id/"
+  },
+  {
+    "id": "MKD-SMA-010",
+    "cat": "Literasi Digital",
+    "level": "sma",
+    "q": "Sebuah foto antrean panjang di TPS diklaim sebagai bukti kekacauan pada hari pemungutan suara, tetapi pencarian gambar menunjukkan foto yang sama pernah terbit beberapa tahun sebelumnya. Penilaian literasi digital yang tepat adalah ...",
+    "a": [
+      "Klaim perlu ditolak atau ditangguhkan sampai konteks waktu dan lokasi foto dapat diverifikasi",
+      "Foto tetap membuktikan kejadian baru karena objeknya berkaitan dengan Pemilu",
+      "Tanggal unggahan terbaru otomatis membuktikan tanggal pengambilan foto",
+      "Jumlah komentar menentukan autentisitas foto"
+    ],
+    "k": 0,
+    "why": "Tanggal unggah tidak sama dengan tanggal pengambilan. Penelusuran gambar balik, sumber asli, lokasi, dan konteks merupakan bagian penting verifikasi sebelum menyimpulkan atau menyebarkan klaim.",
+    "src": "Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
+    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+  },
+  {
+    "id": "MKD-SMA-011",
+    "cat": "Hukum Pemilu",
+    "level": "sma",
+    "q": "Dalam menilai dugaan pelanggaran, pengawas menemukan peristiwa yang sama berpotensi mengandung unsur administrasi dan pidana. Pendekatan yang paling tepat adalah ...",
+    "a": [
+      "Menguraikan fakta dan unsur masing-masing dugaan, lalu menindaklanjuti sesuai kewenangan dan mekanisme yang berlaku",
+      "Memilih jenis pelanggaran berdasarkan sanksi yang paling berat",
+      "Menggabungkan semua dugaan tanpa memeriksa unsur dan kewenangan",
+      "Menghentikan pemeriksaan karena satu peristiwa tidak mungkin memiliki lebih dari satu aspek hukum"
+    ],
+    "k": 0,
+    "why": "Kualifikasi hukum tidak cukup ditentukan oleh label. Fakta, unsur norma, kewenangan, dan mekanisme penanganan masing-masing dugaan harus dianalisis secara cermat.",
+    "src": "UU Nomor 7 Tahun 2017; Perbawaslu Nomor 7 Tahun 2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-SMA-012",
+    "cat": "Etika dan Integritas",
+    "level": "sma",
+    "q": "Pengawas menerima hadiah dari pihak yang sedang menjadi subjek pengawasan dengan alasan sebagai tanda terima kasih. Mengapa penolakan hadiah tetap penting meskipun tidak ada permintaan imbalan?",
+    "a": [
+      "Untuk menjaga independensi dan mencegah timbulnya konflik kepentingan atau persepsi keberpihakan",
+      "Karena hadiah hanya dilarang jika nilainya melebihi gaji bulanan",
+      "Karena hadiah dapat diterima selama diberikan di tempat umum",
+      "Karena integritas hanya dinilai dari keputusan akhir pengawasan"
+    ],
+    "k": 0,
+    "why": "Independensi tidak hanya terkait keputusan aktual, tetapi juga menjaga kepercayaan publik dan menghindari persepsi bahwa pengawas dapat dipengaruhi oleh pihak yang diawasi.",
+    "src": "Kode Etik Penyelenggara Pemilu; prinsip integritas dan independensi",
+    "url": "https://dkpp.go.id/"
+  },
+  {
+    "id": "MKD-SMA-013",
+    "cat": "Partisipasi Masyarakat",
+    "level": "sma",
+    "q": "Komunitas pemantau menemukan dugaan pelanggaran, tetapi bukti yang dikumpulkan berasal dari akun anonim dan belum dapat diverifikasi. Apa kontribusi paling bertanggung jawab?",
+    "a": [
+      "Mencatat asal informasi, mencari konfirmasi independen, menjaga bukti asli, dan menyampaikan temuan dengan status belum terverifikasi",
+      "Menyusun narasi yang meyakinkan agar laporan segera viral",
+      "Menghapus bagian yang meragukan lalu menyampaikan sisanya sebagai fakta",
+      "Menuduh pihak tertentu agar lembaga segera merespons"
+    ],
+    "k": 0,
+    "why": "Informasi awal dapat menjadi petunjuk, tetapi harus dibedakan dari fakta yang telah terverifikasi. Transparansi mengenai keterbatasan bukti mencegah penyebaran tuduhan yang keliru.",
+    "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif; Perbawaslu Nomor 7 Tahun 2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+  },
+  {
+    "id": "MKD-SMA-014",
+    "cat": "Analisis Pengawasan",
+    "level": "sma",
+    "q": "Dalam evaluasi sosialisasi pengawasan partisipatif, jumlah tayangan konten meningkat tajam tetapi jumlah warga yang mengirim informasi terverifikasi tetap rendah. Kesimpulan evaluasi yang paling tepat adalah ...",
+    "a": [
+      "Jangkauan konten meningkat, tetapi belum cukup bukti bahwa partisipasi bermakna atau kualitas informasi ikut meningkat",
+      "Program pasti berhasil karena tayangan merupakan satu-satunya indikator",
+      "Masyarakat tidak peduli pada pengawasan Pemilu",
+      "Semua informasi yang masuk harus dianggap terverifikasi"
+    ],
+    "k": 0,
+    "why": "Indikator jangkauan (reach) berbeda dari indikator keterlibatan dan hasil. Evaluasi perlu mengukur kualitas partisipasi, pemahaman, tindak lanjut, serta perubahan perilaku, bukan hanya tayangan.",
+    "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+  },
+  {
+    "id": "MKD-SMA-015",
+    "cat": "Konstitusi dan Demokrasi",
+    "level": "sma",
+    "q": "Mengapa asas jujur dan adil tidak cukup dimaknai sebagai larangan melakukan kecurangan pada hari pemungutan suara saja?",
+    "a": [
+      "Karena integritas Pemilu harus dijaga pada seluruh tahapan, termasuk pemutakhiran data, pencalonan, kampanye, pemungutan, penghitungan, dan rekapitulasi",
+      "Karena asas tersebut hanya berlaku bagi peserta Pemilu",
+      "Karena pengawasan hanya diperlukan setelah hasil ditetapkan",
+      "Karena kejujuran cukup dinilai dari jumlah pemilih yang hadir"
+    ],
+    "k": 0,
+    "why": "Asas Pemilu menjadi prinsip penyelenggaraan keseluruhan proses. Risiko ketidakadilan dapat muncul pada berbagai tahapan, sehingga pengawasan tidak terbatas pada hari pemungutan suara.",
+    "src": "UUD 1945 Pasal 22E ayat (1); UU Nomor 7 Tahun 2017",
     "url": "https://jdih.dpr.go.id/"
   }
 ];
