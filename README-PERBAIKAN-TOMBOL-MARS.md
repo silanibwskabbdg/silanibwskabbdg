@@ -1,11 +1,7 @@
-# Perbaikan posisi tombol Putar Mars
+# Perbaikan tombol Putar Mars SiLani – versi compact
 
-Paket ini memindahkan tombol Putar Mars dari area navigasi/header ke kanan bawah layar. Posisi diterapkan langsung melalui inline style `!important` oleh `persistent-player.js`, sehingga aturan CSS header lama tidak lagi menimpa posisi tombol. Pada layar kecil tombol menjadi ikon bulat 48 x 48 px.
+Tombol pemutar mars dipindahkan ke kanan bawah dan dipaksa tampil horizontal dengan ukuran ringkas (124 × 40 px desktop, 116 × 40 px mobile). Tombol tetap fixed sehingga selalu terlihat saat halaman digulir. Label “Putar mars” tetap tampil.
 
-## Pemasangan
-1. Ekstrak ZIP.
-2. Unggah seluruh isi folder `silanibwskabbdg-main` ke root repository GitHub Pages, timpa file lama.
-3. Commit perubahan.
-4. Setelah deployment selesai, buka website dan lakukan hard refresh (`Ctrl + Shift + R`).
+Perubahan utama berada di `persistent-player.js`; seluruh halaman yang memuat skrip tersebut juga menggunakan query versi baru untuk menghindari cache browser.
 
-Versi query script dinaikkan ke `20261109-player-bottom-v2` untuk menghindari cache JavaScript lama.
+Cara pemasangan: ekstrak ZIP, unggah seluruh isi folder `silanibwskabbdg-main` ke root repository GitHub Pages, lalu commit. Setelah deployment, lakukan hard refresh (`Ctrl + Shift + R`).
