@@ -6,11 +6,37 @@ var audio=document.getElementById('mars');
 var button=document.getElementById('musicBtn');
 var routerScript=document.currentScript;
 if(!audio||!button) return;
-// Detach the control from the page header so it survives content swaps.
+// Pindahkan tombol keluar dari header agar tidak menutupi navigasi.
 document.body.appendChild(button);
+// Terapkan posisi melalui inline style !important agar aturan header/CSS lama tidak mengalahkannya.
+function placeMusicButton(){
+ button.style.setProperty('position','fixed','important');
+ button.style.setProperty('top','auto','important');
+ button.style.setProperty('bottom','24px','important');
+ button.style.setProperty('right','24px','important');
+ button.style.setProperty('left','auto','important');
+ button.style.setProperty('z-index','99999','important');
+ button.style.setProperty('transform','none','important');
+ button.style.setProperty('box-shadow','0 5px 18px rgba(0,0,0,.22)','important');
+ if(window.matchMedia('(max-width: 700px)').matches){
+  button.style.setProperty('right','14px','important');
+  button.style.setProperty('bottom','14px','important');
+  button.style.setProperty('width','48px','important');
+  button.style.setProperty('min-width','48px','important');
+  button.style.setProperty('height','48px','important');
+  button.style.setProperty('min-height','48px','important');
+  button.style.setProperty('padding','0','important');
+  button.style.setProperty('border-radius','50%','important');
+  button.style.setProperty('justify-content','center','important');
+ }else{
+  ['width','min-width','height','min-height','padding','border-radius','justify-content'].forEach(function(k){button.style.removeProperty(k)});
+ }
+}
+placeMusicButton();
+window.addEventListener('resize',placeMusicButton);
 var style=document.createElement('style');
 style.id='silani-persistent-player-style';
-style.textContent='#musicBtn{position:fixed!important;top:calc(env(safe-area-inset-top, 0px) + 12px)!important;right:14px!important;z-index:100000!important;box-shadow:0 5px 18px rgba(0,0,0,.2)!important}';
+style.textContent='#musicBtn{position:fixed!important;top:auto!important;right:24px!important;bottom:24px!important;left:auto!important;z-index:99999!important;transform:none!important;box-shadow:0 5px 18px rgba(0,0,0,.22)!important}@media(max-width:700px){#musicBtn{right:14px!important;bottom:14px!important;width:48px!important;min-width:48px!important;height:48px!important;min-height:48px!important;padding:0!important;justify-content:center!important;border-radius:50%!important}#musicBtn .music-label,#musicBtn .eq{display:none!important}}';
 document.head.appendChild(style);
 function updateLinks(){
  document.querySelectorAll('a[href]').forEach(function(a){
