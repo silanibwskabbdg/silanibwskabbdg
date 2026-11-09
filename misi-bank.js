@@ -1,4 +1,4 @@
-/* Bank soal SiLani: soal kurasi dasar dan soal analisis tingkat SMA. */
+/* Bank soal SiLani: soal edukasi publik dengan variasi analisis dan tingkat tantangan. */
 window.SiLaniQuestionBank = [
   {
     "id": "MKD-001",

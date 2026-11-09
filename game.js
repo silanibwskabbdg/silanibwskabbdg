@@ -142,7 +142,7 @@
     function reset() {
       elapsed = 0; distance = 0; score = 0; coins = 0;
       // Beginner-friendly mode: 3 lives, moderate speed, fair spacing, and manual controls.
-      speed = 190 * unitX; spawn = 5.6; coinSpawn = 2.0; groundOffset = 0;
+      speed = 190 * unitX; spawn = 5.6; coinSpawn = 3.8; groundOffset = 0;
       obstacles = []; tokens = []; particles = [];
       lives = MAX_LIVES; hitCooldown = 0; jumpBuffer = 0;
       player.y = ground - characterSize; player.vy = 0;
@@ -471,7 +471,7 @@
     }
 
     function spawnCoins() {
-      const n = 4 + Math.floor(Math.random() * 2);
+      const n = 3 + Math.floor(Math.random() * 2);
       const s = unitY;
       const y = ground - 118 * s - Math.random() * 16 * s;
       for (let i = 0; i < n; i++) {
@@ -502,7 +502,7 @@
         const intervalTightening = Math.min(1.1, elapsed * 0.0028);
         spawn = Math.max(4.8, 5.8 + Math.random() * 2.0 - intervalTightening);
       }
-      if (coinSpawn <= 0) { spawnCoins(); coinSpawn = 2.2 + Math.random() * 1.5; }
+      if (coinSpawn <= 0) { spawnCoins(); coinSpawn = 4.8 + Math.random() * 2.2; }
 
       // Buffered touch input: if the player tapped just before landing, jump now.
       if (jumpBuffer > 0 && !player.jumping) performJump();
@@ -560,10 +560,9 @@
         const nearestY = Math.max(pbox.y, Math.min(t.y, pbox.y + pbox.h));
         const dx = t.x - nearestX, dy = t.y - nearestY;
         const boxPickup = (dx * dx + dy * dy) <= ((t.r + 13 * unitY) * (t.r + 13 * unitY));
-        const jumpMagnet = player.jumping && Math.abs(t.x - (pbox.x + pbox.w / 2)) < 175 * unitY && Math.abs(t.y - (pbox.y + pbox.h / 2)) < 150 * unitY;
-        const easyMagnet = Math.abs(t.x - (pbox.x + pbox.w / 2)) < 105 * unitY && Math.abs(t.y - (ground - characterSize * 0.78)) < 95 * unitY;
-        if (boxPickup || jumpMagnet || easyMagnet) {
-          t.taken = true; coins++; score += 50;
+        const jumpMagnet = player.jumping && Math.abs(t.x - (pbox.x + pbox.w / 2)) < 82 * unitY && Math.abs(t.y - (pbox.y + pbox.h / 2)) < 78 * unitY;
+        if (boxPickup || jumpMagnet) {
+          t.taken = true; coins++; score += 35;
           for (let i = 0; i < 5; i++) particles.push({ x: t.x, y: t.y, vx: (Math.random() - .5) * 95 * unitY, vy: (Math.random() - .8) * 95 * unitY, life: .32, maxLife: .32 });
         }
       }
