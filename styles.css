@@ -711,3 +711,6 @@ details[open]>summary .chev{transform:rotate(180deg)}
 .footer-bottom p{margin:0}.footer-bottom p:last-child{max-width:660px;text-align:right}
 @media(max-width:900px){.footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.footer-bottom{flex-direction:column}.footer-bottom p:last-child{text-align:left}}
 @media(max-width:560px){.silani-footer{margin-top:34px}.footer-main{grid-template-columns:1fr;gap:24px;padding-top:30px;padding-bottom:26px}.footer-logo-link{max-width:185px}.footer-main h2{margin-bottom:8px}.footer-links,.footer-contact,.footer-address{gap:8px}.footer-bottom{padding-top:14px;padding-bottom:20px}}
+
+/* SiLani: hide duplicate music control in header; keep floating player only */
+header #musicBtn, .site-header #musicBtn { display: none !important; }

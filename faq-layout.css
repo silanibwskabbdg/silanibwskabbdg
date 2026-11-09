@@ -110,3 +110,6 @@
   .faq-content-head{align-items:flex-start}
   .faq-count{font-size:10px}
 }
+
+/* SiLani: keep only the floating music control, never a header duplicate */
+header #musicBtn, .site-header #musicBtn { display: none !important; }
