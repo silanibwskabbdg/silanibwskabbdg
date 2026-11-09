@@ -30,3 +30,19 @@ Sebelum publikasi, tim substansi/hukum perlu memeriksa setiap butir terhadap nas
 - Sesi Misi Kawal Demokrasi mengambil 10 soal secara acak dari 15 soal berkategori `sma`.
 - Soal menekankan analisis kasus, verifikasi informasi, etika pengawasan, pembedaan objek sengketa, dan evaluasi partisipasi.
 - Rujukan pada setiap soal merupakan rujukan awal untuk pemeriksaan substansi. Tim hukum/substansi perlu memvalidasi ketepatan pasal, status keberlakuan, dan kesesuaian penerapan sebelum publikasi resmi.
+
+
+## Pembaruan v10: pengacakan dan pembahasan hukum
+- Urutan soal dan urutan opsi jawaban diacak pada setiap sesi. Kunci jawaban ikut dipetakan ulang sehingga posisi jawaban benar tidak tetap di A.
+- Halaman hasil menampilkan penjelasan dan dasar hukum/penerapan untuk setiap soal.
+- Rujukan hukum merupakan materi edukasi; sebelum publikasi resmi, tim substansi/hukum perlu memeriksa kembali perubahan peraturan, putusan pengadilan, dan ketepatan penerapan pada konteks kasus.
+
+## Pembaruan v11 — dua jalur pembelajaran
+
+Bank soal berisi 120 soal terstruktur:
+- 87 soal jalur **Masyarakat Umum**, meliputi konstitusi, demokrasi, hak pemilih, lembaga negara, kampanye, politik uang, pemungutan suara, Pilkada, literasi informasi, keterbukaan informasi, dan partisipasi warga.
+- 33 soal jalur **Pengawas Pemilu**, meliputi perencanaan dan pelaksanaan pengawasan, pencegahan, pengawasan tahapan, data pemilih, penanganan pelanggaran, Sentra Gakkumdu, pelanggaran administratif, sengketa proses, pengawasan kampanye, netralitas, pemungutan/penghitungan, etika, dan manajemen bukti.
+
+Setiap sesi memilih 10 soal acak dari jalur yang dipilih. Urutan soal dan opsi jawaban diacak pada setiap sesi; indeks kunci jawaban dihitung ulang berdasarkan opsi yang benar sehingga jawaban benar tidak menetap pada huruf A. Halaman hasil menampilkan jawaban benar, penjelasan, dasar hukum/penerapan, dan tautan sumber.
+
+**Catatan validasi hukum:** tautan mengarah ke sumber resmi atau portal JDIH. Sebelum digunakan sebagai bahan bimbingan teknis atau rujukan operasional, tim hukum/substansi wajib memeriksa kembali naskah konsolidasi, perubahan peraturan, putusan MK/MA yang relevan, aturan teknis tahapan terbaru, serta tenggang waktu dan kewenangan pada konteks kasus. Penjelasan dalam kuis adalah materi edukasi, bukan pendapat hukum untuk perkara konkret.

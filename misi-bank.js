@@ -1,4 +1,4 @@
-/* Bank soal SiLani: soal edukasi publik dengan variasi analisis dan tingkat tantangan. */
+/* Bank soal SiLani v11: jalur masyarakat umum dan pengawas Pemilu. Opsi jawaban diacak per sesi. */
 window.SiLaniQuestionBank = [
   {
     "id": "MKD-001",
@@ -14,7 +14,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "UUD 1945 menetapkan Pemilu dilaksanakan setiap lima tahun sekali.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-002",
@@ -30,7 +32,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pasal 22E ayat (1) menyebut asas langsung, umum, bebas, rahasia, jujur, dan adil.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-003",
@@ -46,7 +50,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "UUD 1945 menyebut Pemilu diselenggarakan oleh komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.",
     "src": "UUD 1945 Pasal 22E ayat (5)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-004",
@@ -62,7 +68,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Peserta Pemilu untuk memilih anggota DPR dan DPRD adalah partai politik.",
     "src": "UUD 1945 Pasal 22E ayat (3)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-005",
@@ -78,7 +86,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "UUD 1945 mengatur peserta Pemilu untuk memilih anggota DPD adalah perseorangan.",
     "src": "UUD 1945 Pasal 22E ayat (4)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-006",
@@ -94,7 +104,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pasal 22E ayat (2) menyebut DPR, DPD, Presiden/Wakil Presiden, dan DPRD.",
     "src": "UUD 1945 Pasal 22E ayat (2)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-007",
@@ -110,7 +122,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Kerahasiaan melindungi pilihan setiap pemilih agar bebas dari tekanan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-008",
@@ -126,7 +140,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas bebas berarti pemilih dapat menentukan pilihan tanpa paksaan atau tekanan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-009",
@@ -142,7 +158,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Kejujuran dan keadilan menjaga kepercayaan serta memastikan suara diproses sesuai aturan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-010",
@@ -158,7 +176,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi perlu diperiksa sebelum dibagikan agar warga tidak ikut menyebarkan kabar bohong.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-011",
@@ -174,7 +194,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Bawaslu mendorong keterlibatan masyarakat dalam mengawasi Pemilu dan Pilkada.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-012",
@@ -190,7 +212,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Masyarakat dapat berpartisipasi dengan menyampaikan informasi dugaan pelanggaran melalui mekanisme resmi.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-013",
@@ -206,7 +230,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Catatan faktual dan bukti membantu pengawas menilai informasi yang disampaikan.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-014",
@@ -222,7 +248,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan partisipatif membuka ruang keterlibatan masyarakat, bukan hanya anggota partai.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-015",
@@ -238,7 +266,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi yang jelas membantu proses penanganan dan mencegah tuduhan tanpa dasar.",
     "src": "Perbawaslu Nomor 7 Tahun 2022 tentang Penanganan Temuan dan Laporan Pelanggaran Pemilu",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-016",
@@ -254,7 +284,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Modul Bawaslu mendorong kecakapan masyarakat dalam pengawasan informasi dan media sosial.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-017",
@@ -270,7 +302,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan partisipatif bertujuan memperkuat integritas proses Pemilu melalui keterlibatan masyarakat.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-018",
@@ -286,7 +320,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Definisi Pemilih dalam Perbawaslu 1/2025 mencakup WNI berumur 17 tahun atau lebih atau sudah/pernah kawin.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 Pasal 1",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-019",
@@ -302,7 +338,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemutakhiran berkelanjutan dilakukan untuk menjaga kualitas data pemilih di luar tahapan Pemilu.",
     "src": "Perbawaslu Nomor 1 Tahun 2025",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-020",
@@ -318,7 +356,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan PDPB mencakup pencermatan data warga meninggal melalui koordinasi dengan instansi terkait.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 Pasal 4",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-021",
@@ -334,7 +374,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Uji petik merupakan pemeriksaan sampel untuk menguji kesesuaian data pemilih.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 Pasal 1",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-022",
@@ -350,7 +392,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Koordinasi dengan Dukcapil dan instansi terkait membantu memastikan data pemilih sesuai kondisi terbaru.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 Pasal 4",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-023",
@@ -366,7 +410,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Penanganan temuan dan laporan pelanggaran dilakukan oleh Bawaslu sesuai kewenangannya.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-024",
@@ -382,7 +428,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perbawaslu 7/2022 mengatur penanganan temuan dan laporan sebagai jalur informasi dugaan pelanggaran.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-025",
@@ -398,7 +446,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Bukti dan uraian peristiwa membantu proses kajian sesuai prosedur; laporan tidak otomatis membuktikan kesalahan.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-026",
@@ -414,7 +464,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi awal harus diverifikasi melalui proses penanganan sesuai peraturan.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-027",
@@ -430,7 +482,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Kampanye merupakan kegiatan untuk meyakinkan pemilih dengan menawarkan visi, misi, program, dan/atau citra diri peserta Pemilu.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum Pasal 1 angka 35",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-028",
@@ -446,7 +500,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Kebebasan memilih harus dihormati; intimidasi bertentangan dengan prinsip Pemilu yang bebas.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-029",
@@ -462,7 +518,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Teknis kampanye Pemilu diatur melalui PKPU, termasuk PKPU 15/2023 sebagaimana diubah PKPU 20/2023.",
     "src": "PKPU Nomor 15 Tahun 2023 sebagaimana diubah dengan PKPU Nomor 20 Tahun 2023",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-030",
@@ -478,7 +536,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Literasi informasi membantu mencegah penyebaran hoaks dan menjaga ruang publik yang sehat.",
     "src": "Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
-    "url": "https://e-lib.bawaslu.go.id/"
+    "url": "https://e-lib.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-031",
@@ -494,7 +554,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemilih menggunakan hak pilih di TPS sesuai status dan ketentuan yang berlaku.",
     "src": "PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara dalam Pemilu",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-032",
@@ -510,7 +572,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemilih perlu memeriksa surat suara dan mengikuti tata cara pemungutan yang ditetapkan.",
     "src": "PKPU Nomor 25 Tahun 2023",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-033",
@@ -526,7 +590,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Keterbukaan penghitungan merupakan bagian dari transparansi proses pemungutan dan penghitungan suara.",
     "src": "PKPU Nomor 25 Tahun 2023",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-034",
@@ -542,7 +608,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Keberatan dan dugaan kesalahan perlu disampaikan melalui mekanisme resmi agar dapat ditangani.",
     "src": "PKPU Nomor 25 Tahun 2023; Perbawaslu Nomor 15 Tahun 2024 untuk pengawasan pemungutan dan penghitungan suara Pilkada",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-035",
@@ -558,7 +626,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Bawaslu memiliki kewenangan menyelesaikan sengketa proses Pemilu sesuai UU dan Perbawaslu.",
     "src": "Perbawaslu Nomor 9 Tahun 2022 tentang Tata Cara Penyelesaian Sengketa Proses Pemilu",
-    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 Pasal 466 dan ketentuan terkait mengatur sengketa proses Pemilu. Tata cara penyelesaiannya diatur dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan hasil Pemilu merupakan kewenangan Mahkamah Konstitusi berdasarkan UUD 1945 Pasal 24C ayat (1), sehingga objek dan forum harus dibedakan."
   },
   {
     "id": "MKD-036",
@@ -574,7 +644,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Sengketa proses dan perselisihan hasil merupakan perkara berbeda dengan mekanisme dan lembaga berwenang yang berbeda.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; Perbawaslu Nomor 9 Tahun 2022",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 Pasal 466 dan ketentuan terkait mengatur sengketa proses Pemilu. Tata cara penyelesaiannya diatur dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan hasil Pemilu merupakan kewenangan Mahkamah Konstitusi berdasarkan UUD 1945 Pasal 24C ayat (1), sehingga objek dan forum harus dibedakan."
   },
   {
     "id": "MKD-037",
@@ -590,7 +662,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pilkada merupakan pemilihan untuk jabatan kepala daerah dan wakil kepala daerah.",
     "src": "UU Nomor 1 Tahun 2015 beserta perubahannya tentang Pemilihan Gubernur, Bupati, dan Wali Kota",
-    "url": "https://peraturan.bpk.go.id/"
+    "url": "https://peraturan.bpk.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-038",
@@ -606,7 +680,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan Pilkada dilakukan oleh Bawaslu dan jajaran pengawas sesuai kewenangan dalam peraturan.",
     "src": "UU Nomor 1 Tahun 2015 beserta perubahannya; Perbawaslu Nomor 15 Tahun 2024",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-039",
@@ -622,7 +698,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perbawaslu 15/2024 mengatur pengawasan pemungutan dan penghitungan suara dalam Pemilihan.",
     "src": "Perbawaslu Nomor 15 Tahun 2024",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-040",
@@ -638,7 +716,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Masyarakat dapat menyampaikan informasi dugaan pelanggaran melalui kanal resmi pengawas.",
     "src": "Perbawaslu Nomor 7 Tahun 2022 untuk Pemilu; ketentuan penanganan pelanggaran Pemilihan sesuai peraturan terkait",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-041",
@@ -654,7 +734,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawas wajib menjaga integritas, objektivitas, dan tidak menyalahgunakan hubungan pribadi.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; Peraturan DKPP tentang Kode Etik Penyelenggara Pemilu",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-042",
@@ -670,7 +752,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Penerimaan hadiah dapat memengaruhi atau menimbulkan kesan keberpihakan dan konflik kepentingan.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; prinsip integritas penyelenggara Pemilu",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-043",
@@ -686,7 +770,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Potensi konflik kepentingan perlu diungkap dan dikelola agar pengawasan tetap objektif.",
     "src": "Prinsip integritas dan kode etik penyelenggara Pemilu; UU Nomor 7 Tahun 2017",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-044",
@@ -702,7 +788,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Bukti asli beserta informasi waktu dan tempat lebih berguna untuk pemeriksaan daripada konten yang telah dimanipulasi.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-045",
@@ -718,7 +806,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan partisipatif juga mencakup kewaspadaan terhadap hoaks, ujaran kebencian, dan kampanye hitam.",
     "src": "Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
-    "url": "https://e-lib.bawaslu.go.id/"
+    "url": "https://e-lib.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-046",
@@ -734,7 +824,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perubahan data kependudukan dan pemilih perlu diproses melalui instansi yang berwenang.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 tentang Pengawasan Pemutakhiran Data Pemilih Berkelanjutan",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-047",
@@ -750,7 +842,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Koordinasi dengan Dukcapil membantu pencermatan perubahan data penduduk yang berpengaruh pada data pemilih.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 Pasal 4",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-048",
@@ -766,7 +860,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pelapor menyampaikan informasi dugaan peristiwa; penilaian dan penanganan dilakukan oleh lembaga berwenang.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-049",
@@ -782,7 +878,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Penanganan pelanggaran membutuhkan uraian peristiwa yang jelas dan informasi yang dapat diperiksa.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-050",
@@ -798,7 +896,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas bebas melindungi kebebasan setiap pemilih dalam menentukan pilihan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-051",
@@ -814,7 +914,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas rahasia melindungi pilihan pemilih dari tuntutan untuk membuka pilihannya.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-052",
@@ -830,7 +932,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemilih perlu meminta penjelasan KPPS dan mengikuti ketentuan layanan pemilih yang berlaku.",
     "src": "PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara dalam Pemilu",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-053",
@@ -846,7 +950,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemungutan suara dilakukan berdasarkan daftar pemilih dan ketentuan untuk mencegah penggunaan hak pilih lebih dari yang diperbolehkan.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; PKPU Nomor 25 Tahun 2023",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-054",
@@ -862,7 +968,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Keberatan terhadap keputusan dalam proses Pemilu harus menggunakan mekanisme dan kewenangan yang diatur hukum.",
     "src": "Perbawaslu Nomor 9 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 Pasal 466 dan ketentuan terkait mengatur sengketa proses Pemilu. Tata cara penyelesaiannya diatur dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan hasil Pemilu merupakan kewenangan Mahkamah Konstitusi berdasarkan UUD 1945 Pasal 24C ayat (1), sehingga objek dan forum harus dibedakan."
   },
   {
     "id": "MKD-055",
@@ -878,7 +986,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perbawaslu 9/2022 mengatur tata cara penyelesaian sengketa proses Pemilu oleh Bawaslu.",
     "src": "Perbawaslu Nomor 9 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 Pasal 466 dan ketentuan terkait mengatur sengketa proses Pemilu. Tata cara penyelesaiannya diatur dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan hasil Pemilu merupakan kewenangan Mahkamah Konstitusi berdasarkan UUD 1945 Pasal 24C ayat (1), sehingga objek dan forum harus dibedakan."
   },
   {
     "id": "MKD-056",
@@ -894,7 +1004,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Modul SKPP Bawaslu menyebut pengawasan partisipatif untuk Pemilu dan Pilkada.",
     "src": "Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar (Bawaslu, 2022)",
-    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar"
+    "url": "https://www.bawaslu.go.id/id/publikasi/modul-sekolah-kader-pengawas-partisipatif-tingkat-dasar",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-057",
@@ -910,7 +1022,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Masyarakat dapat berpartisipasi dengan melaporkan dugaan pelanggaran; penanganannya dilakukan oleh lembaga berwenang.",
     "src": "UU Nomor 1 Tahun 2015 beserta perubahannya; peraturan Bawaslu terkait penanganan pelanggaran Pemilihan",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-058",
@@ -926,7 +1040,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawas harus menjaga integritas, profesionalitas, dan informasi sesuai ketentuan keterbukaan yang berlaku.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; kode etik penyelenggara Pemilu",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-059",
@@ -942,7 +1058,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan harus dijalankan secara independen dan berdasarkan ketentuan, bukan tekanan pihak berkepentingan.",
     "src": "UU Nomor 7 Tahun 2017 tentang Pemilihan Umum; prinsip integritas penyelenggara Pemilu",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-060",
@@ -958,7 +1076,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi pendukung harus faktual. Jangan menambah keterangan yang tidak diketahui atau mengubah bukti.",
     "src": "Perbawaslu Nomor 7 Tahun 2022; Modul Sekolah Kader Pengawas Partisipatif Tingkat Dasar",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-061",
@@ -974,7 +1094,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi yang berbeda perlu disampaikan secara jujur agar dapat diverifikasi oleh pengawas.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur tugas Bawaslu melakukan pencegahan dan pengawasan. Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif mengatur pelibatan masyarakat dalam pendidikan dan pengawasan kepemiluan. Informasi warga tetap harus diverifikasi dan ditangani sesuai prosedur."
   },
   {
     "id": "MKD-062",
@@ -990,7 +1112,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Uji petik digunakan untuk memeriksa kesesuaian data; hasilnya dicatat dan ditindaklanjuti melalui kewenangan yang berlaku.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 tentang Pengawasan Pemutakhiran Data Pemilih Berkelanjutan",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur tugas Bawaslu mengawasi pemutakhiran dan penyusunan daftar pemilih. Untuk Pemilu, rujukan teknis harus mengikuti PKPU tentang penyusunan daftar pemilih yang berlaku. Untuk pengawasan Pemutakhiran Data Pemilih Berkelanjutan, periksa Perbawaslu Nomor 1 Tahun 2025 dan status peraturan teknis KPU terkini."
   },
   {
     "id": "MKD-063",
@@ -1006,7 +1130,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asal informasi harus dijelaskan secara jujur. Pengawas perlu memeriksa kebenaran informasi dan bukti pendukung.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur jenis pelanggaran dan kewenangan penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu. Kualifikasi hukum harus diuji berdasarkan fakta, unsur, bukti, kewenangan, dan tenggang waktu."
   },
   {
     "id": "MKD-064",
@@ -1022,7 +1148,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pemeriksaan konteks dan sumber merupakan bagian dari literasi pengawasan informasi dan pencegahan hoaks.",
     "src": "Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
-    "url": "https://e-lib.bawaslu.go.id/"
+    "url": "https://e-lib.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017, khususnya ketentuan kampanye dalam Pasal 267 dan seterusnya, mengatur kampanye Pemilu, peserta, pelaksana, materi, metode, larangan, dan sanksi. Ketentuan teknis mengikuti PKPU kampanye dan peraturan Bawaslu yang berlaku pada Pemilu terkait."
   },
   {
     "id": "MKD-065",
@@ -1038,7 +1166,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perbedaan perlu disampaikan melalui mekanisme keberatan dan pengawasan agar dicatat serta ditangani sesuai aturan.",
     "src": "PKPU Nomor 25 Tahun 2023; ketentuan pengawasan pemungutan dan penghitungan suara",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur pemungutan, penghitungan, dan rekapitulasi suara. Tata cara teknis Pemilu diatur dalam PKPU Nomor 25 Tahun 2023 tentang Pemungutan dan Penghitungan Suara. Pengawasan Bawaslu juga merujuk Perbawaslu Nomor 1 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu."
   },
   {
     "id": "MKD-066",
@@ -1054,7 +1184,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Perbawaslu 9/2022 mengatur sengketa proses. Perselisihan hasil memiliki mekanisme dan lembaga penyelesaian tersendiri.",
     "src": "Perbawaslu Nomor 9 Tahun 2022; UU Nomor 7 Tahun 2017",
-    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 Pasal 466 dan ketentuan terkait mengatur sengketa proses Pemilu. Tata cara penyelesaiannya diatur dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan hasil Pemilu merupakan kewenangan Mahkamah Konstitusi berdasarkan UUD 1945 Pasal 24C ayat (1), sehingga objek dan forum harus dibedakan."
   },
   {
     "id": "MKD-067",
@@ -1070,7 +1202,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Warga dapat membantu pengawasan dengan menyampaikan informasi, sedangkan tindakan resmi dilakukan oleh petugas berwenang.",
     "src": "Perbawaslu Nomor 15 Tahun 2024 tentang Pengawasan Pemungutan dan Penghitungan Suara Pemilihan",
-    "url": "https://jdih.bawaslu.go.id/"
+    "url": "https://jdih.bawaslu.go.id/",
+    "track": "umum",
+    "legal": "Pilkada diatur dalam UU Nomor 1 Tahun 2015 tentang Penetapan Perppu Nomor 1 Tahun 2014 menjadi Undang-Undang beserta perubahan-perubahannya, termasuk UU Nomor 10 Tahun 2016, serta peraturan pelaksana KPU dan Bawaslu yang berlaku."
   },
   {
     "id": "MKD-068",
@@ -1086,7 +1220,9 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawas harus menjaga integritas dan menghindari tindakan yang menimbulkan konflik kepentingan atau kesan berpihak.",
     "src": "UU Nomor 7 Tahun 2017; kode etik penyelenggara Pemilu",
-    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "track": "umum",
+    "legal": "UU Nomor 7 Tahun 2017 mengatur asas, tugas, kewajiban, dan kode etik penyelenggara Pemilu. Peraturan DKPP Nomor 2 Tahun 2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi rujukan etik; penerapannya harus memperhatikan perubahan atau ketentuan etik yang berlaku."
   },
   {
     "id": "MKD-069",
@@ -1102,12 +1238,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas bebas menjamin pemilih menentukan pilihan tanpa paksaan atau tekanan.",
     "src": "UUD 1945 Pasal 22E ayat (1)",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/",
+    "track": "umum",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2), Pasal 22E ayat (1), dan Pasal 22E ayat (5) menjadi dasar kedaulatan rakyat, asas Pemilu, serta penyelenggara Pemilu. Ketentuan lebih lanjut mengenai peserta, tahapan, hak pemilih, dan penyelenggara diatur dalam UU Nomor 7 Tahun 2017 tentang Pemilu beserta perubahan dan putusan pengadilan yang relevan."
   },
   {
     "id": "MKD-SMA-001",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Dalam masa kampanye, seorang pejabat daerah mengunggah ajakan memilih calon tertentu melalui akun resmi instansi. Analisis awal yang paling tepat adalah ...",
     "a": [
       "Perlu diperiksa apakah penggunaan jabatan, fasilitas, atau sumber daya negara menguntungkan peserta tertentu",
@@ -1118,12 +1256,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Penilaian harus berangkat dari fakta penggunaan jabatan atau fasilitas negara serta ketentuan netralitas dan larangan yang berlaku. Pengawas perlu mendokumentasikan konteks, akun, waktu, dan hubungan konten dengan kampanye sebelum menyimpulkan.",
     "src": "UU Nomor 7 Tahun 2017; ketentuan netralitas ASN; Perbawaslu tentang pengawasan kampanye",
-    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "legal": "UU Nomor 20 Tahun 2023 tentang ASN, Pasal 24 ayat (1) huruf d: Pegawai ASN wajib menjaga netralitas. UU Nomor 7 Tahun 2017 tentang Pemilu, Pasal 282: pejabat negara, pejabat struktural, pejabat fungsional, dan/atau aparatur sipil negara dilarang membuat keputusan dan/atau melakukan tindakan yang menguntungkan atau merugikan salah satu peserta Pemilu selama masa kampanye. Pasal 280 ayat (1) huruf h mengatur larangan penggunaan fasilitas pemerintah dalam kampanye, dengan memperhatikan pemaknaan konstitusional dalam Putusan MK Nomor 12/PUU-XXI/2023. Penilaian kasus tetap harus membedakan unggahan pribadi, penggunaan akun/fasilitas kedinasan, kapasitas pejabat, dan unsur tindakan yang menguntungkan peserta tertentu.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-002",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Sebuah unggahan viral menuduh calon melakukan politik uang, tetapi video tidak menunjukkan lokasi, waktu, maupun identitas pihak yang terlibat. Tindakan verifikasi paling tepat adalah ...",
     "a": [
       "Melacak sumber asli, memeriksa metadata/konteks yang tersedia, dan mencari keterangan atau bukti pendukung independen",
@@ -1134,12 +1274,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Popularitas konten bukan bukti kebenaran. Verifikasi perlu memeriksa sumber pertama, konteks waktu dan tempat, keutuhan rekaman, serta bukti atau keterangan pendukung.",
     "src": "Perbawaslu Nomor 7 Tahun 2022; Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "legal": "UU Nomor 1 Tahun 2024 tentang Perubahan Kedua atas UU ITE, Pasal 5 dan Pasal 6, mengatur Informasi Elektronik/Dokumen Elektronik sebagai alat bukti hukum dengan persyaratan yang ditentukan undang-undang. UU Nomor 7 Tahun 2017 tentang Pemilu dan Perbawaslu Nomor 7 Tahun 2022 menjadi kerangka penanganan dugaan pelanggaran. Dalam praktik verifikasi, periksa sumber asli, waktu, lokasi, konteks, keutuhan file, identitas akun, dan konfirmasi independen. Video viral atau jumlah tayangan tidak dengan sendirinya membuktikan peristiwa maupun pelanggaran.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-003",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Pengawas menerima laporan dugaan pelanggaran yang disertai tangkapan layar percakapan, tetapi pelapor tidak dapat menjelaskan asal percakapan. Apa fokus klarifikasi awal?",
     "a": [
       "Memastikan identitas dan kapasitas pelapor, asal-usul bukti, waktu, tempat, serta pihak yang diduga terlibat",
@@ -1150,12 +1292,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Klarifikasi awal membantu menilai keterkaitan informasi dengan peristiwa yang dilaporkan dan menelusuri asal-usul bukti digital. Tangkapan layar perlu diuji konteks dan keasliannya.",
     "src": "Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902",
+    "legal": "Perbawaslu Nomor 7 Tahun 2022 tentang Penanganan Temuan dan Laporan Pelanggaran Pemilu mengatur penerimaan, pengkajian, dan tindak lanjut temuan/laporan. Klarifikasi awal perlu menguji syarat formal dan materiil serta relevansi informasi dengan peristiwa yang dilaporkan. Bukti tangkapan layar harus ditelusuri asal-usulnya, waktu, konteks percakapan, akun/perangkat sumber, dan kemungkinan perubahan. Jangan menyimpulkan pelanggaran hanya dari gambar tanpa pemeriksaan dan proses sesuai kewenangan.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-004",
     "cat": "Konstitusi dan Demokrasi",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Seorang pemilih menyatakan pilihannya kepada orang lain karena takut bantuan sosialnya dihentikan jika tidak memilih calon tertentu. Prinsip Pemilu yang paling langsung terancam adalah ...",
     "a": [
       "Kebebasan dan kerahasiaan pilihan pemilih",
@@ -1166,12 +1310,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Ancaman terhadap bantuan sosial dapat menjadi tekanan yang mengganggu kebebasan pemilih. Jika tekanan diarahkan untuk membuka atau mengendalikan pilihan, kerahasiaan dan kebebasan memilih juga terancam.",
     "src": "UUD 1945 Pasal 22E ayat (1); UU Nomor 7 Tahun 2017",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM",
+    "legal": "UUD Negara Republik Indonesia Tahun 1945, Pasal 22E ayat (1), menetapkan asas Pemilu langsung, umum, bebas, rahasia, jujur, dan adil. Unsur bebas berarti pemilih tidak boleh ditekan atau diarahkan dengan ancaman; unsur rahasia melindungi pilihan pemilih. UU Nomor 7 Tahun 2017 mengatur larangan dan ketentuan pidana terkait perbuatan memengaruhi pemilih dengan pemberian/ancaman atau penyalahgunaan kewenangan pada ketentuan yang relevan. Fakta, pelaku, waktu, maksud, dan hubungan ancaman dengan pilihan harus diperiksa sebelum menentukan kualifikasi hukumnya.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-005",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Dalam pengawasan pemutakhiran data pemilih, ditemukan satu warga tercatat di dua alamat. Kesimpulan dan tindak lanjut paling tepat adalah ...",
     "a": [
       "Menelusuri dokumen dan kondisi faktual, mencatat temuan, lalu menyampaikan saran perbaikan sesuai prosedur",
@@ -1182,12 +1328,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Ketidaksesuaian data perlu diverifikasi melalui dokumen dan kondisi faktual. Pengawas mencatat hasil pengawasan dan menindaklanjuti melalui mekanisme yang berwenang, bukan mengubah daftar pemilih secara sepihak.",
     "src": "Perbawaslu Nomor 1 Tahun 2025 tentang Pengawasan Pemutakhiran Data Pemilih Berkelanjutan",
-    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+    "url": "https://peraturan.bpk.go.id/Details/328882/peraturan-bawaslu-no-1-tahun-2025",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu, Pasal 96 huruf d, Pasal 100 huruf e, dan Pasal 104 huruf e, menempatkan pengawasan pemutakhiran dan pemeliharaan data pemilih sebagai bagian tugas Bawaslu sesuai tingkatannya. Perbawaslu Nomor 1 Tahun 2025 mengatur pengawasan Pemutakhiran Data Pemilih Berkelanjutan, antara lain melalui pencegahan, pengawasan langsung, uji petik, dan pengawasan partisipatif. PKPU Nomor 1 Tahun 2025 mengatur penyelenggaraan PDPB. Pengawas mencatat ketidaksesuaian dan menyampaikan tindak lanjut/saran perbaikan melalui mekanisme resmi; pengawas tidak mengubah data pemilih secara sepihak.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-006",
     "cat": "Hukum Pemilu",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Peserta Pemilu mempersoalkan keputusan KPU tentang tahapan pencalonan, sedangkan pihak lain mempersoalkan penetapan hasil perolehan suara. Mengapa keduanya tidak boleh otomatis diproses melalui jalur yang sama?",
     "a": [
       "Karena sengketa proses dan perselisihan hasil memiliki objek serta mekanisme penyelesaian yang berbeda",
@@ -1198,12 +1346,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Objek sengketa proses berbeda dari perselisihan hasil. Penentuan jalur harus memperhatikan jenis keputusan atau objek yang dipersoalkan dan kewenangan lembaga penyelesaiannya.",
     "src": "UU Nomor 7 Tahun 2017; Perbawaslu Nomor 9 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+    "url": "https://peraturan.bpk.go.id/Details/263972/peraturan-bawaslu-no-9-tahun-2022",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu, Pasal 466, mendefinisikan sengketa proses Pemilu sebagai sengketa antarpeserta atau antara peserta dengan penyelenggara akibat keputusan KPU/KPU Provinsi/KPU Kabupaten/Kota. Tata caranya diatur lebih lanjut dalam Perbawaslu Nomor 9 Tahun 2022. Perselisihan tentang hasil perolehan suara merupakan kewenangan Mahkamah Konstitusi berdasarkan Pasal 24C ayat (1) UUD 1945 dan ketentuan perselisihan hasil dalam UU Pemilu. Karena objek, pihak, tenggat, dan forum berbeda, jenis perkara harus dikualifikasikan sebelum menentukan jalur penyelesaian.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-007",
     "cat": "Etika dan Integritas",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Seorang pengawas mengetahui bahwa kerabat dekatnya menjadi tim kampanye peserta Pemilu di wilayah pengawasannya. Sikap profesional yang paling tepat adalah ...",
     "a": [
       "Mengungkap potensi konflik kepentingan dan mengikuti mekanisme penanganan atau penghindaran yang berlaku",
@@ -1214,12 +1364,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Hubungan pribadi yang berpotensi memengaruhi atau dipersepsikan memengaruhi objektivitas harus diungkap dan dikelola. Integritas menuntut pencegahan konflik kepentingan, bukan sekadar klaim netral.",
     "src": "UU Nomor 7 Tahun 2017; Kode Etik Penyelenggara Pemilu",
-    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017",
+    "legal": "UU Nomor 20 Tahun 2023 tentang ASN, Pasal 24 ayat (1) huruf d, mewajibkan Pegawai ASN menjaga netralitas. Bagi penyelenggara Pemilu, prinsip mandiri, jujur, adil, dan profesional juga tercermin dalam UU Nomor 7 Tahun 2017 serta Kode Etik Penyelenggara Pemilu (Peraturan DKPP Nomor 2 Tahun 2017). Hubungan keluarga dengan tim kampanye tidak otomatis membuktikan keberpihakan, tetapi merupakan potensi konflik kepentingan yang patut diungkap dan dikelola melalui atasan/ mekanisme etik atau penugasan yang berlaku agar objektivitas dan kepercayaan publik terjaga.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-008",
     "cat": "Partisipasi Masyarakat",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Kelompok warga mengumpulkan bukti dugaan pelanggaran, tetapi sebagian anggota ingin mengunggah identitas saksi dan alamat rumahnya. Pertimbangan utama sebelum publikasi adalah ...",
     "a": [
       "Melindungi keselamatan, privasi, dan integritas bukti serta menyalurkan informasi melalui prosedur yang tepat",
@@ -1230,12 +1382,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan partisipatif harus memperhatikan keamanan pelapor dan saksi, perlindungan data pribadi, serta keutuhan bukti. Informasi sebaiknya disampaikan melalui kanal yang tepat dan tidak membuka data sensitif tanpa dasar.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
-    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif",
+    "legal": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif, khususnya Pasal 2, menempatkan pengawasan partisipatif sebagai pendidikan politik/kepemiluan dan pengembangan kader serta metode pengawasan. UU Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi mengatur prinsip dan kewajiban pelindungan data pribadi. Karena itu, warga perlu menyampaikan informasi kepada kanal berwenang tanpa menyebarkan data identitas saksi, alamat rumah, atau informasi pribadi yang tidak diperlukan. Simpan bukti asli secara aman dan batasi aksesnya.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-009",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Pada rekapitulasi, saksi menunjukkan salinan formulir yang angkanya berbeda dari data yang dibacakan. Langkah pengawasan yang paling kuat secara pembuktian adalah ...",
     "a": [
       "Mencatat perbedaan secara spesifik, mengamankan salinan dokumen relevan, dan meminta penjelasan melalui mekanisme rapat",
@@ -1246,12 +1400,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Pengawasan perlu berbasis pencatatan yang spesifik dan pembandingan dokumen resmi. Keberatan atau koreksi harus ditempuh melalui tata cara rekapitulasi yang berlaku, bukan melalui perubahan sepihak atau kesimpulan prematur.",
     "src": "UU Nomor 7 Tahun 2017; PKPU Nomor 25 Tahun 2023",
-    "url": "https://jdih.kpu.go.id/"
+    "url": "https://jdih.kpu.go.id/",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu mengatur pemungutan, penghitungan, dan rekapitulasi suara serta kewajiban dokumentasi hasil dalam formulir resmi. Ketentuan teknis pemungutan dan penghitungan suara diatur dalam PKPU Nomor 25 Tahun 2023 beserta perubahan/ketentuan pelaksana yang berlaku. Pengawas dan saksi perlu menunjukkan perbedaan secara spesifik dengan membandingkan dokumen pada tingkat yang sama, mencatat kejadian dalam formulir/catatan pengawasan, dan menyampaikan keberatan melalui prosedur rapat. Hindari mengubah dokumen atau menyimpulkan manipulasi tanpa verifikasi.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-010",
     "cat": "Literasi Digital",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Sebuah foto antrean panjang di TPS diklaim sebagai bukti kekacauan pada hari pemungutan suara, tetapi pencarian gambar menunjukkan foto yang sama pernah terbit beberapa tahun sebelumnya. Penilaian literasi digital yang tepat adalah ...",
     "a": [
       "Klaim perlu ditolak atau ditangguhkan sampai konteks waktu dan lokasi foto dapat diverifikasi",
@@ -1262,12 +1418,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Tanggal unggah tidak sama dengan tanggal pengambilan. Penelusuran gambar balik, sumber asli, lokasi, dan konteks merupakan bagian penting verifikasi sebelum menyimpulkan atau menyebarkan klaim.",
     "src": "Modul Pengawasan Hoaks dan Kampanye Hitam (Edisi Revisi 2024)",
-    "url": "https://jdih.bawaslu.go.id/peraturan/perbawaslu"
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif",
+    "legal": "UUD 1945 Pasal 28F menjamin hak untuk berkomunikasi dan memperoleh/menyampaikan informasi, tetapi penggunaan hak tersebut perlu dilakukan secara bertanggung jawab. UU Nomor 1 Tahun 2024 tentang Perubahan Kedua atas UU ITE memuat ketentuan mengenai Informasi Elektronik dan Dokumen Elektronik. Untuk pengawasan partisipatif, Perbawaslu Nomor 2 Tahun 2023 menjadi kerangka pendidikan dan partisipasi masyarakat. Foto lama yang diunggah ulang tidak membuktikan kejadian baru; telusuri sumber pertama, tanggal pengambilan, lokasi, metadata yang tersedia, dan konteks sebelum menyebarkan klaim.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-011",
     "cat": "Hukum Pemilu",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Dalam menilai dugaan pelanggaran, pengawas menemukan peristiwa yang sama berpotensi mengandung unsur administrasi dan pidana. Pendekatan yang paling tepat adalah ...",
     "a": [
       "Menguraikan fakta dan unsur masing-masing dugaan, lalu menindaklanjuti sesuai kewenangan dan mekanisme yang berlaku",
@@ -1278,12 +1436,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Kualifikasi hukum tidak cukup ditentukan oleh label. Fakta, unsur norma, kewenangan, dan mekanisme penanganan masing-masing dugaan harus dianalisis secara cermat.",
     "src": "UU Nomor 7 Tahun 2017; Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+    "url": "https://peraturan.bpk.go.id/Details/254617/peraturan-bawaslu-no-7-tahun-2022",
+    "legal": "UU Nomor 7 Tahun 2017 tentang Pemilu membedakan jenis pelanggaran dan mekanisme penanganannya. Perbawaslu Nomor 7 Tahun 2022 mengatur penanganan temuan dan laporan pelanggaran Pemilu, termasuk proses kajian serta penerusan dugaan tindak pidana kepada kepolisian dalam Sentra Gakkumdu sesuai ketentuan. Penilaian harus menguraikan perbuatan, subjek, waktu, tempat, bukti, unsur norma, dan kewenangan. Satu rangkaian peristiwa dapat memunculkan lebih dari satu dugaan, tetapi masing-masing unsur dan jalur harus diuji; jangan menetapkan label pidana/administratif secara prematur.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-012",
     "cat": "Etika dan Integritas",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Pengawas menerima hadiah dari pihak yang sedang menjadi subjek pengawasan dengan alasan sebagai tanda terima kasih. Mengapa penolakan hadiah tetap penting meskipun tidak ada permintaan imbalan?",
     "a": [
       "Untuk menjaga independensi dan mencegah timbulnya konflik kepentingan atau persepsi keberpihakan",
@@ -1294,12 +1454,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Independensi tidak hanya terkait keputusan aktual, tetapi juga menjaga kepercayaan publik dan menghindari persepsi bahwa pengawas dapat dipengaruhi oleh pihak yang diawasi.",
     "src": "Kode Etik Penyelenggara Pemilu; prinsip integritas dan independensi",
-    "url": "https://dkpp.go.id/"
+    "url": "https://peraturan.bpk.go.id/Details/177031/pp-no-94-tahun-2021",
+    "legal": "UU Nomor 20 Tahun 2023 tentang ASN, Pasal 24 ayat (1) huruf d, mewajibkan netralitas bagi Pegawai ASN. PP Nomor 94 Tahun 2021 tentang Disiplin PNS mengatur kewajiban dan larangan PNS, termasuk larangan penyalahgunaan wewenang dan ketentuan terkait pemberian yang berhubungan dengan jabatan. Bagi penyelenggara Pemilu, Peraturan DKPP Nomor 2 Tahun 2017 menegaskan prinsip integritas, mandiri, dan profesional. Hadiah dari pihak yang diawasi dapat merusak independensi atau menimbulkan persepsi keberpihakan; penolakan dan pelaporan melalui mekanisme yang berlaku menjaga kepercayaan publik.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-013",
     "cat": "Partisipasi Masyarakat",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Komunitas pemantau menemukan dugaan pelanggaran, tetapi bukti yang dikumpulkan berasal dari akun anonim dan belum dapat diverifikasi. Apa kontribusi paling bertanggung jawab?",
     "a": [
       "Mencatat asal informasi, mencari konfirmasi independen, menjaga bukti asli, dan menyampaikan temuan dengan status belum terverifikasi",
@@ -1310,12 +1472,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Informasi awal dapat menjadi petunjuk, tetapi harus dibedakan dari fakta yang telah terverifikasi. Transparansi mengenai keterbatasan bukti mencegah penyebaran tuduhan yang keliru.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif; Perbawaslu Nomor 7 Tahun 2022",
-    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif",
+    "legal": "Perbawaslu Nomor 2 Tahun 2023 mengatur pelibatan masyarakat dalam pengawasan partisipatif. Perbawaslu Nomor 7 Tahun 2022 mengatur mekanisme penanganan temuan dan laporan dugaan pelanggaran Pemilu. Informasi anonim yang belum terverifikasi dapat menjadi petunjuk awal, tetapi belum otomatis menjadi fakta atau bukti yang cukup. Catat sumber dan batas verifikasi, cari konfirmasi independen, jaga file asli, hindari menyebarkan identitas atau tuduhan, lalu sampaikan melalui kanal resmi agar dapat ditelaah sesuai kewenangan.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-014",
     "cat": "Analisis Pengawasan",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Dalam evaluasi sosialisasi pengawasan partisipatif, jumlah tayangan konten meningkat tajam tetapi jumlah warga yang mengirim informasi terverifikasi tetap rendah. Kesimpulan evaluasi yang paling tepat adalah ...",
     "a": [
       "Jangkauan konten meningkat, tetapi belum cukup bukti bahwa partisipasi bermakna atau kualitas informasi ikut meningkat",
@@ -1326,12 +1490,14 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Indikator jangkauan (reach) berbeda dari indikator keterlibatan dan hasil. Evaluasi perlu mengukur kualitas partisipasi, pemahaman, tindak lanjut, serta perubahan perilaku, bukan hanya tayangan.",
     "src": "Perbawaslu Nomor 2 Tahun 2023 tentang Pengawasan Partisipatif",
-    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+    "url": "https://peraturan.bpk.go.id/Details/254565/peraturan-bawaslu-no-2-tahun-2023",
+    "legal": "Perbawaslu Nomor 2 Tahun 2023, Pasal 2, menetapkan tujuan pengawasan partisipatif sebagai pendidikan politik/kepemiluan dan penciptaan kader serta model pengawasan yang efektif dan sistematis. Pasal 30 mengatur penilaian keberhasilan penyelenggaraan pengawasan partisipatif melalui pemantauan dan indikator yang ditetapkan Bawaslu. Karena itu, jumlah tayangan hanya mengukur jangkauan, bukan otomatis kualitas partisipasi. Evaluasi sebaiknya juga mengukur pemahaman, kualitas informasi/laporan, tindak lanjut, keterlibatan berulang, dan perubahan perilaku.",
+    "track": "pengawas"
   },
   {
     "id": "MKD-SMA-015",
     "cat": "Konstitusi dan Demokrasi",
-    "level": "sma",
+    "level": "lanjutan",
     "q": "Mengapa asas jujur dan adil tidak cukup dimaknai sebagai larangan melakukan kecurangan pada hari pemungutan suara saja?",
     "a": [
       "Karena integritas Pemilu harus dijaga pada seluruh tahapan, termasuk pemutakhiran data, pencalonan, kampanye, pemungutan, penghitungan, dan rekapitulasi",
@@ -1342,6 +1508,656 @@ window.SiLaniQuestionBank = [
     "k": 0,
     "why": "Asas Pemilu menjadi prinsip penyelenggaraan keseluruhan proses. Risiko ketidakadilan dapat muncul pada berbagai tahapan, sehingga pengawasan tidak terbatas pada hari pemungutan suara.",
     "src": "UUD 1945 Pasal 22E ayat (1); UU Nomor 7 Tahun 2017",
-    "url": "https://jdih.dpr.go.id/"
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM",
+    "legal": "UUD 1945 Pasal 22E ayat (1) menetapkan asas langsung, umum, bebas, rahasia, jujur, dan adil. UU Nomor 7 Tahun 2017 mengatur rangkaian penyelenggaraan Pemilu dari perencanaan, pemutakhiran data pemilih, pencalonan, kampanye, pemungutan dan penghitungan suara, hingga penetapan hasil. Dengan demikian, integritas Pemilu tidak hanya diuji pada hari pemungutan suara. Pencegahan dan pengawasan perlu dilakukan sepanjang tahapan, karena ketidakadilan dapat muncul sejak akses pencalonan, data pemilih, kampanye, hingga rekapitulasi.",
+    "track": "pengawas"
+  },
+  {
+    "id": "MKD-UM-001",
+    "track": "umum",
+    "cat": "Hak Konstitusional",
+    "level": "mudah",
+    "q": "Dalam negara demokrasi, dari mana kedaulatan berada menurut UUD 1945?",
+    "a": [
+      "Di tangan rakyat",
+      "Di tangan partai politik",
+      "Di tangan pemerintah pusat saja",
+      "Di tangan lembaga peradilan"
+    ],
+    "k": 0,
+    "why": "Pasal 1 ayat (2) UUD 1945 menegaskan kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.",
+    "legal": "UUD 1945 Pasal 1 ayat (2). Kedaulatan rakyat dijalankan melalui mekanisme konstitusional, termasuk Pemilu, perwakilan, dan pembatasan kekuasaan berdasarkan UUD.",
+    "src": "UUD Negara Republik Indonesia Tahun 1945 Pasal 1 ayat (2)",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-002",
+    "track": "umum",
+    "cat": "Lembaga Negara",
+    "level": "sedang",
+    "q": "Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+    "a": [
+      "Majelis Permusyawaratan Rakyat",
+      "Dewan Perwakilan Rakyat saja",
+      "Mahkamah Konstitusi",
+      "Komisi Pemilihan Umum"
+    ],
+    "k": 0,
+    "why": "Kewenangan mengubah dan menetapkan UUD berada pada MPR, dengan prosedur khusus dalam konstitusi.",
+    "legal": "UUD 1945 Pasal 3 ayat (1) serta Pasal 37 mengatur kewenangan dan tata cara perubahan UUD oleh MPR.",
+    "src": "UUD 1945 Pasal 3 ayat (1) dan Pasal 37",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-003",
+    "track": "umum",
+    "cat": "Lembaga Negara",
+    "level": "mudah",
+    "q": "Apa peran utama DPR dalam sistem ketatanegaraan Indonesia?",
+    "a": [
+      "Fungsi legislasi, anggaran, dan pengawasan",
+      "Melaksanakan seluruh putusan pengadilan",
+      "Mengangkat seluruh kepala daerah",
+      "Menyelenggarakan pemungutan suara"
+    ],
+    "k": 0,
+    "why": "DPR menjalankan fungsi pembentukan undang-undang, anggaran, dan pengawasan sebagaimana ditentukan konstitusi.",
+    "legal": "UUD 1945 Pasal 20A ayat (1) menyebut fungsi legislasi, anggaran, dan pengawasan DPR.",
+    "src": "UUD 1945 Pasal 20A ayat (1)",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-004",
+    "track": "umum",
+    "cat": "Pemilu dan Perwakilan",
+    "level": "sedang",
+    "q": "Pemilu untuk memilih anggota DPD dilaksanakan dengan prinsip keterwakilan ...",
+    "a": [
+      "Daerah/provinsi",
+      "Partai politik secara nasional",
+      "Kementerian dan lembaga",
+      "Organisasi kemasyarakatan"
+    ],
+    "k": 0,
+    "why": "DPD merupakan lembaga perwakilan daerah; setiap provinsi memiliki jumlah anggota yang sama dan jumlah seluruh anggota DPD tidak lebih dari sepertiga DPR.",
+    "legal": "UUD 1945 Pasal 22C ayat (1) mengatur anggota DPD dipilih dari setiap provinsi melalui Pemilu; pengaturan lebih lanjut terdapat dalam UU Pemilu.",
+    "src": "UUD 1945 Pasal 22C ayat (1) dan UU 7/2017",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-005",
+    "track": "umum",
+    "cat": "Hak Pemilih",
+    "level": "mudah",
+    "q": "Apakah warga negara yang memenuhi syarat dapat menggunakan hak pilih tanpa dipaksa memilih calon tertentu?",
+    "a": [
+      "Ya, pilihan harus bebas dari tekanan",
+      "Tidak, pilihan ditentukan pemerintah",
+      "Hanya jika disetujui ketua lingkungan",
+      "Hanya jika memilih calon yang menang survei"
+    ],
+    "k": 0,
+    "why": "Kebebasan menentukan pilihan merupakan bagian dari asas bebas dan hak politik warga negara.",
+    "legal": "UUD 1945 Pasal 22E ayat (1) menetapkan asas bebas; Pasal 28E menjamin kebebasan menyatakan pikiran dan sikap sesuai ketentuan konstitusi.",
+    "src": "UUD 1945 Pasal 22E ayat (1) dan Pasal 28E",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-006",
+    "track": "umum",
+    "cat": "Demokrasi Inklusif",
+    "level": "sedang",
+    "q": "Mengapa akses pemilih penyandang disabilitas perlu diperhatikan dalam penyelenggaraan Pemilu?",
+    "a": [
+      "Agar hak pilih dapat digunakan secara setara dan mandiri",
+      "Agar hanya memilih di TPS khusus tertentu",
+      "Agar suara mereka dihitung terpisah dari pemilih lain",
+      "Agar tidak perlu mengikuti prosedur Pemilu"
+    ],
+    "k": 0,
+    "why": "Penyelenggaraan Pemilu harus menjamin aksesibilitas dan kesempatan setara bagi pemilih penyandang disabilitas.",
+    "legal": "UU 7/2017 mengatur hak pemilih dan aksesibilitas dalam penyelenggaraan Pemilu; prinsip kesetaraan juga dijamin UUD 1945 Pasal 28H ayat (2) dan UU 8/2016 tentang Penyandang Disabilitas.",
+    "src": "UU 7/2017; UUD 1945 Pasal 28H ayat (2); UU 8/2016",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-007",
+    "track": "umum",
+    "cat": "Demokrasi dan Informasi",
+    "level": "sedang",
+    "q": "Mengapa informasi mengenai calon dan program perlu diperiksa dari lebih dari satu sumber?",
+    "a": [
+      "Untuk mengurangi risiko bias, hoaks, dan manipulasi informasi",
+      "Agar semua sumber harus memiliki pendapat yang sama",
+      "Agar pemilih tidak perlu menilai isi informasi",
+      "Agar informasi yang paling viral otomatis dianggap benar"
+    ],
+    "k": 0,
+    "why": "Membandingkan sumber membantu memeriksa konteks, akurasi, dan kemungkinan kepentingan di balik informasi.",
+    "legal": "UUD 1945 Pasal 28F menjamin hak memperoleh dan menyampaikan informasi; pelaksanaannya perlu bertanggung jawab. UU 1/2024 mengubah UU ITE dan mengatur informasi/dokumen elektronik.",
+    "src": "UUD 1945 Pasal 28F; UU 1/2024 tentang Perubahan Kedua UU ITE",
+    "url": "https://peraturan.bpk.go.id/"
+  },
+  {
+    "id": "MKD-UM-008",
+    "track": "umum",
+    "cat": "Pemilu dan Partisipasi",
+    "level": "mudah",
+    "q": "Apa arti golput dalam konteks partisipasi elektoral?",
+    "a": [
+      "Keputusan seseorang untuk tidak menggunakan hak pilih",
+      "Memberikan suara lebih dari satu kali",
+      "Memilih semua calon sekaligus",
+      "Mengawasi penghitungan suara"
+    ],
+    "k": 0,
+    "why": "Golput merujuk pada tidak menggunakan hak pilih; keputusan tersebut berbeda dari tindakan menghalangi orang lain menggunakan hak pilih.",
+    "legal": "Hak memilih dijamin dalam kerangka UUD 1945 dan UU Pemilu. Larangan menghalangi seseorang memberikan suara diatur dalam ketentuan pidana UU 7/2017, antara lain Pasal 510 dan ketentuan terkait.",
+    "src": "UU 7/2017 tentang Pemilu, ketentuan hak pemilih dan larangan menghalangi pemungutan suara",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-009",
+    "track": "umum",
+    "cat": "Kampanye",
+    "level": "sedang",
+    "q": "Apa perbedaan utama kampanye dengan sosialisasi pendidikan pemilih?",
+    "a": [
+      "Kampanye menawarkan visi, misi, program, atau citra peserta Pemilu; pendidikan pemilih memberi pengetahuan kepemiluan secara nonpartisan",
+      "Keduanya selalu bertujuan meminta dukungan kepada calon",
+      "Pendidikan pemilih hanya boleh dilakukan partai politik",
+      "Kampanye hanya dilakukan setelah pemungutan suara"
+    ],
+    "k": 0,
+    "why": "Kampanye merupakan aktivitas peserta Pemilu untuk meyakinkan pemilih, sedangkan pendidikan pemilih bertujuan meningkatkan pemahaman tanpa mengarahkan pilihan kepada peserta tertentu.",
+    "legal": "UU 7/2017 Pasal 1 angka 35 mendefinisikan Kampanye Pemilu; ketentuan kampanye diatur lebih lanjut dalam UU Pemilu dan PKPU kampanye.",
+    "src": "UU 7/2017 Pasal 1 angka 35 dan ketentuan kampanye",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-010",
+    "track": "umum",
+    "cat": "Politik Uang",
+    "level": "mudah",
+    "q": "Mengapa menerima uang atau barang dengan syarat memilih calon tertentu merusak integritas Pemilu?",
+    "a": [
+      "Karena pilihan pemilih dipengaruhi imbalan dan tidak lagi bebas",
+      "Karena semua bantuan sosial otomatis merupakan politik uang",
+      "Karena pemilih wajib menerima pemberian saat kampanye",
+      "Karena pemberian membuat surat suara tidak sah"
+    ],
+    "k": 0,
+    "why": "Pemberian yang dimaksudkan untuk memengaruhi pilihan pemilih dapat memenuhi unsur politik uang sesuai ketentuan dan harus dinilai berdasarkan fakta serta unsur hukumnya.",
+    "legal": "UU 7/2017 Pasal 523 mengatur tindak pidana politik uang pada tahapan tertentu. Penilaian wajib melihat subjek, waktu, maksud, bentuk pemberian, dan hubungan dengan ajakan memilih.",
+    "src": "UU 7/2017 Pasal 523",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-011",
+    "track": "umum",
+    "cat": "Pemungutan Suara",
+    "level": "mudah",
+    "q": "Apa yang harus dilakukan pemilih setelah menerima surat suara di TPS?",
+    "a": [
+      "Memeriksa surat suara dan mencoblos sesuai tata cara di bilik suara",
+      "Memperlihatkan pilihannya kepada petugas",
+      "Membawa surat suara ke luar TPS",
+      "Meminta orang lain memilihkan tanpa prosedur"
+    ],
+    "k": 0,
+    "why": "Pemilih menggunakan surat suara secara mandiri dan menjaga kerahasiaan pilihannya sesuai tata cara pemungutan suara.",
+    "legal": "UU 7/2017 mengatur pemungutan suara; tata cara teknis diatur dalam PKPU 25/2023 tentang Pemungutan dan Penghitungan Suara.",
+    "src": "UU 7/2017; PKPU 25/2023",
+    "url": "https://jdih.kpu.go.id/peraturan-kpu/detail/sSgRpHsIviN8bmx13kPw4XYzN05DejhEU0dBNVpOckRNME9zL1E9PQ"
+  },
+  {
+    "id": "MKD-UM-012",
+    "track": "umum",
+    "cat": "Hasil Pemilu",
+    "level": "sedang",
+    "q": "Mengapa formulir hasil penghitungan suara perlu diumumkan atau dapat diakses sesuai ketentuan?",
+    "a": [
+      "Agar proses dapat diawasi dan hasilnya transparan",
+      "Agar pemilih dapat mengubah angka hasil",
+      "Agar hanya peserta yang menang mengetahui hasil",
+      "Agar penghitungan tidak perlu didokumentasikan"
+    ],
+    "k": 0,
+    "why": "Transparansi dokumen hasil memungkinkan pengawasan, pencocokan, dan penyelesaian keberatan melalui prosedur resmi.",
+    "legal": "UU 7/2017 mengatur pemungutan, penghitungan, dan rekapitulasi; PKPU 25/2023 mengatur tata cara dan formulir pemungutan serta penghitungan suara.",
+    "src": "UU 7/2017; PKPU 25/2023",
+    "url": "https://jdih.kpu.go.id/peraturan-kpu/detail/sSgRpHsIviN8bmx13kPw4XYzN05DejhEU0dBNVpOckRNME9zL1E9PQ"
+  },
+  {
+    "id": "MKD-UM-013",
+    "track": "umum",
+    "cat": "Pilkada",
+    "level": "mudah",
+    "q": "Dalam Pilkada, warga memilih ...",
+    "a": [
+      "Gubernur dan wakil gubernur, bupati dan wakil bupati, atau wali kota dan wakil wali kota",
+      "Anggota DPR dan DPD",
+      "Presiden dan wakil presiden",
+      "Ketua KPU dan ketua Bawaslu"
+    ],
+    "k": 0,
+    "why": "Pilkada merupakan pemilihan kepala daerah dan wakil kepala daerah di tingkat provinsi serta kabupaten/kota.",
+    "legal": "UU 1/2015 sebagaimana diubah, antara lain dengan UU 10/2016, mengatur pemilihan gubernur, bupati, dan wali kota.",
+    "src": "UU 1/2015 jo. UU 10/2016",
+    "url": "https://peraturan.bpk.go.id/Details/37311/uu-no-10-tahun-2016"
+  },
+  {
+    "id": "MKD-UM-014",
+    "track": "umum",
+    "cat": "Etika Demokrasi",
+    "level": "sedang",
+    "q": "Dalam diskusi politik, sikap yang mencerminkan demokrasi adalah ...",
+    "a": [
+      "Menghormati perbedaan pendapat dan menyampaikan argumen tanpa intimidasi",
+      "Membungkam pendapat yang berbeda",
+      "Menyebarkan data pribadi lawan diskusi",
+      "Mengancam orang yang berbeda pilihan"
+    ],
+    "k": 0,
+    "why": "Demokrasi membutuhkan kebebasan berpendapat sekaligus penghormatan terhadap hak dan martabat orang lain.",
+    "legal": "UUD 1945 Pasal 28E ayat (3) menjamin kebebasan berserikat, berkumpul, dan mengeluarkan pendapat; pelaksanaannya tunduk pada pembatasan konstitusional Pasal 28J.",
+    "src": "UUD 1945 Pasal 28E ayat (3) dan Pasal 28J",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-015",
+    "track": "umum",
+    "cat": "Pemilih Pemula",
+    "level": "mudah",
+    "q": "Apa langkah yang tepat bagi pemilih pemula sebelum menentukan pilihan?",
+    "a": [
+      "Mempelajari rekam jejak, visi-misi, dan informasi calon dari sumber tepercaya",
+      "Mengikuti pilihan mayoritas tanpa pertimbangan",
+      "Memilih berdasarkan pesan berantai yang belum diverifikasi",
+      "Menentukan pilihan karena tekanan teman"
+    ],
+    "k": 0,
+    "why": "Pemilih perlu menilai informasi dan program secara kritis agar keputusan politik dibuat secara sadar dan bebas.",
+    "legal": "UUD 1945 Pasal 28F menjamin hak atas informasi; asas bebas, jujur, dan adil tercantum dalam Pasal 22E ayat (1).",
+    "src": "UUD 1945 Pasal 22E ayat (1) dan Pasal 28F",
+    "url": "https://jdih.dpr.go.id/setjen/index/id/UUD-1945-BAGIAN-PERTIMBANGAN-DAN-DOKUMENTASI-INFORMASI-HUKUM"
+  },
+  {
+    "id": "MKD-UM-016",
+    "track": "umum",
+    "cat": "Keterwakilan",
+    "level": "sedang",
+    "q": "Apa salah satu tujuan pengaturan keterwakilan perempuan dalam pencalonan anggota legislatif?",
+    "a": [
+      "Mendorong kesempatan dan representasi perempuan dalam proses politik",
+      "Menghapus hak pilih laki-laki",
+      "Menetapkan hasil Pemilu sebelum pemungutan suara",
+      "Mengganti seluruh anggota legislatif dengan pejabat pemerintah"
+    ],
+    "k": 0,
+    "why": "Pengaturan afirmasi bertujuan memperluas partisipasi dan keterwakilan perempuan, dengan pelaksanaan sesuai norma dan putusan pengadilan yang berlaku.",
+    "legal": "UU 7/2017 Pasal 245 mengatur daftar bakal calon anggota DPR/DPRD memuat keterwakilan perempuan paling sedikit 30%; penerapan harus memperhatikan putusan MK yang relevan dan ketentuan teknis KPU.",
+    "src": "UU 7/2017 Pasal 245 dan putusan MK terkait",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-017",
+    "track": "umum",
+    "cat": "Lembaga Penyelenggara",
+    "level": "mudah",
+    "q": "Apa perbedaan peran KPU dan Bawaslu secara umum?",
+    "a": [
+      "KPU menyelenggarakan tahapan Pemilu, sedangkan Bawaslu mengawasi penyelenggaraannya",
+      "KPU mengadili sengketa hasil dan Bawaslu menetapkan calon",
+      "Keduanya memiliki tugas yang sepenuhnya sama",
+      "Bawaslu menyelenggarakan pemungutan suara dan KPU mengawasi"
+    ],
+    "k": 0,
+    "why": "KPU adalah penyelenggara teknis Pemilu, sedangkan Bawaslu menjalankan fungsi pengawasan, pencegahan, penindakan, dan penyelesaian sengketa proses sesuai kewenangannya.",
+    "legal": "UUD 1945 Pasal 22E ayat (5); UU 7/2017 mengatur tugas, wewenang, dan kewajiban KPU serta Bawaslu.",
+    "src": "UUD 1945 Pasal 22E ayat (5); UU 7/2017",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-UM-018",
+    "track": "umum",
+    "cat": "Informasi Publik",
+    "level": "sedang",
+    "q": "Jika warga ingin mengetahui informasi publik tentang tahapan atau hasil pengawasan, jalur yang tepat adalah ...",
+    "a": [
+      "Meminta informasi melalui PPID sesuai prosedur layanan informasi publik",
+      "Meminta kata sandi akun internal petugas",
+      "Mengakses dokumen rahasia tanpa izin",
+      "Menyebarkan dokumen pribadi petugas"
+    ],
+    "k": 0,
+    "why": "Informasi publik dimohonkan melalui mekanisme PPID; informasi yang dikecualikan tetap dilindungi sesuai ketentuan keterbukaan informasi.",
+    "legal": "UU 14/2008 tentang Keterbukaan Informasi Publik, khususnya Pasal 7, Pasal 9–11, dan Pasal 17; Peraturan Bawaslu Nomor 1 Tahun 2021 mengatur standar layanan informasi publik Bawaslu.",
+    "src": "UU 14/2008; Perbawaslu 1/2021",
+    "url": "https://peraturan.bpk.go.id/Details/39047/uu-no-14-tahun-2008"
+  },
+  {
+    "id": "MKD-PW-001",
+    "track": "pengawas",
+    "cat": "Perencanaan Pengawasan",
+    "level": "sedang",
+    "q": "Sebelum melakukan pengawasan langsung pada suatu tahapan, apa yang sebaiknya disiapkan pengawas?",
+    "a": [
+      "Memetakan tahapan, dasar hukum, potensi kerawanan, objek, jadwal, dan metode pengawasan",
+      "Menentukan pihak yang harus dinyatakan bersalah",
+      "Menyusun kesimpulan sebelum mengumpulkan fakta",
+      "Mengandalkan informasi media sosial saja"
+    ],
+    "k": 0,
+    "why": "Perencanaan membuat pengawasan terarah, terukur, berbasis risiko, dan dapat dipertanggungjawabkan.",
+    "legal": "Perbawaslu 5/2022 tentang Pengawasan Penyelenggaraan Pemilu sebagaimana diubah dengan Perbawaslu 2/2024 menjadi kerangka pengawasan tahapan; rencana pengawasan harus disusun sesuai tugas dan kewenangan Bawaslu pada tingkatannya.",
+    "src": "Perbawaslu 5/2022 jo. Perbawaslu 2/2024",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/156894508"
+  },
+  {
+    "id": "MKD-PW-002",
+    "track": "pengawas",
+    "cat": "Pencegahan",
+    "level": "sedang",
+    "q": "Apa tujuan utama tindakan pencegahan yang dilakukan Bawaslu sebelum dugaan pelanggaran terjadi?",
+    "a": [
+      "Mengurangi potensi pelanggaran dan mendorong kepatuhan peserta serta pihak terkait",
+      "Menggantikan seluruh proses penindakan",
+      "Menjamin tidak akan ada sengketa",
+      "Memberi keistimewaan kepada peserta tertentu"
+    ],
+    "k": 0,
+    "why": "Pencegahan diarahkan untuk meminimalkan potensi pelanggaran melalui identifikasi kerawanan, imbauan, pendidikan, koordinasi, dan langkah pencegahan lain yang sah.",
+    "legal": "UU 7/2017 mengatur tugas Bawaslu melakukan pencegahan dan penindakan pelanggaran serta sengketa proses; Perbawaslu 5/2022 jo. Perbawaslu 2/2024 mengatur pengawasan penyelenggaraan Pemilu.",
+    "src": "UU 7/2017 Pasal 93 dan Perbawaslu 5/2022 jo. Perbawaslu 2/2024",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/156894508"
+  },
+  {
+    "id": "MKD-PW-003",
+    "track": "pengawas",
+    "cat": "Pengawasan Langsung",
+    "level": "sedang",
+    "q": "Ketika melakukan pengawasan langsung, apa yang paling penting dicatat dalam formulir atau laporan hasil pengawasan?",
+    "a": [
+      "Waktu, tempat, tahapan, pihak terkait, uraian peristiwa faktual, dan bukti yang diperoleh",
+      "Opini pribadi tentang karakter peserta",
+      "Kesimpulan pidana tanpa uraian kejadian",
+      "Rumor yang tidak diketahui sumbernya"
+    ],
+    "k": 0,
+    "why": "Catatan pengawasan harus faktual, kronologis, relevan, dan dapat ditelusuri agar berguna untuk pencegahan atau tindak lanjut.",
+    "legal": "Perbawaslu 5/2022 jo. Perbawaslu 2/2024 mengatur pengawasan penyelenggaraan Pemilu; dokumentasi hasil pengawasan menjadi bagian akuntabilitas pelaksanaan tugas.",
+    "src": "Perbawaslu 5/2022 jo. Perbawaslu 2/2024",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/156894508"
+  },
+  {
+    "id": "MKD-PW-004",
+    "track": "pengawas",
+    "cat": "Penanganan Pelanggaran",
+    "level": "sulit",
+    "q": "Apa perbedaan pokok temuan dan laporan dugaan pelanggaran Pemilu?",
+    "a": [
+      "Temuan berasal dari hasil pengawasan Bawaslu, sedangkan laporan disampaikan oleh pihak yang berhak melapor",
+      "Temuan selalu berasal dari media massa, laporan hanya dari KPU",
+      "Temuan tidak memerlukan bukti, laporan wajib langsung terbukti",
+      "Keduanya identik dan tidak memiliki perbedaan prosedur"
+    ],
+    "k": 0,
+    "why": "Perbedaan sumber awal memengaruhi pencatatan dan proses administrasi penanganan, meskipun keduanya tetap dikaji menurut ketentuan.",
+    "legal": "Perbawaslu 7/2022 mengatur penanganan temuan dan laporan dugaan pelanggaran Pemilu, termasuk syarat, registrasi, kajian, dan tindak lanjut.",
+    "src": "Perbawaslu 7/2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-PW-005",
+    "track": "pengawas",
+    "cat": "Penanganan Pelanggaran",
+    "level": "sulit",
+    "q": "Dalam menerima laporan dugaan pelanggaran, apa yang dimaksud pemeriksaan syarat formal dan materiil secara garis besar?",
+    "a": [
+      "Memeriksa kelengkapan identitas/waktu penyampaian serta uraian peristiwa, pihak terlapor, dan bukti atau saksi sesuai aturan",
+      "Menilai popularitas pelapor dan terlapor",
+      "Memastikan laporan viral di media sosial",
+      "Menentukan hasil perkara sebelum klarifikasi"
+    ],
+    "k": 0,
+    "why": "Syarat formal dan materiil membantu memastikan laporan dapat ditangani sesuai prosedur; kekurangan harus ditindaklanjuti berdasarkan ketentuan yang berlaku.",
+    "legal": "Perbawaslu 7/2022 tentang Penanganan Temuan dan Laporan Pelanggaran Pemilu mengatur syarat dan tata cara penerimaan serta penanganan laporan.",
+    "src": "Perbawaslu 7/2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-PW-006",
+    "track": "pengawas",
+    "cat": "Sentra Gakkumdu",
+    "level": "sulit",
+    "q": "Apa fungsi Sentra Gakkumdu dalam penanganan dugaan tindak pidana Pemilu?",
+    "a": [
+      "Wadah koordinasi terpadu antara Bawaslu, Kepolisian, dan Kejaksaan",
+      "Lembaga yang menetapkan hasil Pemilu",
+      "Unit yang menggantikan kewenangan pengadilan",
+      "Tim kampanye lintas partai"
+    ],
+    "k": 0,
+    "why": "Sentra Gakkumdu menyatukan koordinasi dan pemahaman unsur tindak pidana Pemilu sejak proses penanganan sesuai tahapan dan kewenangan masing-masing unsur.",
+    "legal": "UU 7/2017 mengatur penanganan tindak pidana Pemilu melalui Sentra Gakkumdu; Perbawaslu 3/2023 mengatur Sentra Penegakan Hukum Terpadu Pemilu.",
+    "src": "UU 7/2017; Perbawaslu 3/2023",
+    "url": "https://jdih.bawaslu.go.id/"
+  },
+  {
+    "id": "MKD-PW-007",
+    "track": "pengawas",
+    "cat": "Pelanggaran Administratif",
+    "level": "sulit",
+    "q": "Jika hasil kajian mengarah pada dugaan pelanggaran administratif Pemilu, apa prinsip tindak lanjut yang harus diperhatikan?",
+    "a": [
+      "Menggunakan mekanisme penyelesaian pelanggaran administratif sesuai kewenangan dan prosedur",
+      "Langsung menjatuhkan pidana oleh pengawas",
+      "Menyelesaikan melalui unggahan media sosial",
+      "Mengabaikan karena bukan tindak pidana"
+    ],
+    "k": 0,
+    "why": "Pelanggaran administratif memiliki mekanisme penyelesaian tersendiri; pengawas harus mengidentifikasi jenis pelanggaran dan kewenangan yang tepat.",
+    "legal": "UU 7/2017 dan Perbawaslu 8/2022 tentang Penyelesaian Pelanggaran Administratif Pemilu menjadi rujukan mekanisme penanganannya.",
+    "src": "UU 7/2017; Perbawaslu 8/2022",
+    "url": "https://jdih.bawaslu.go.id/"
+  },
+  {
+    "id": "MKD-PW-008",
+    "track": "pengawas",
+    "cat": "Sengketa Proses",
+    "level": "sulit",
+    "q": "Dalam sengketa proses Pemilu, apa yang harus diperiksa sebelum menyimpulkan Bawaslu berwenang menangani permohonan?",
+    "a": [
+      "Objek sengketa, para pihak, kedudukan hukum, tenggang waktu, dan ketentuan kewenangan",
+      "Jumlah dukungan di media sosial",
+      "Apakah pemohon berasal dari partai besar",
+      "Apakah sengketa menarik perhatian publik"
+    ],
+    "k": 0,
+    "why": "Kewenangan penyelesaian sengketa proses dibatasi oleh objek, subjek, syarat permohonan, dan tenggang waktu yang ditentukan peraturan.",
+    "legal": "UU 7/2017 Pasal 466 dan ketentuan terkait; Perbawaslu 9/2022 mengatur tata cara penyelesaian sengketa proses Pemilu.",
+    "src": "UU 7/2017 Pasal 466; Perbawaslu 9/2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/57487361/tata-cara-penyelesaian-sengketa-proses-pemilihan-umum"
+  },
+  {
+    "id": "MKD-PW-009",
+    "track": "pengawas",
+    "cat": "Pengawasan Kampanye",
+    "level": "sedang",
+    "q": "Dalam pengawasan kampanye, pengawas menemukan dugaan penggunaan fasilitas pemerintah. Apa langkah awal yang tepat?",
+    "a": [
+      "Mencatat fakta, mengidentifikasi fasilitas dan pihak pengguna, waktu, konteks kegiatan, lalu menguji ketentuan larangan yang relevan",
+      "Langsung menyatakan semua kegiatan pemerintah sebagai kampanye",
+      "Menghapus dokumentasi agar tidak menimbulkan polemik",
+      "Menyimpulkan pelanggaran hanya dari warna pakaian"
+    ],
+    "k": 0,
+    "why": "Penggunaan fasilitas pemerintah harus diuji berdasarkan subjek, jenis fasilitas, konteks, waktu, tujuan, dan norma yang berlaku; jangan membuat kesimpulan hanya dari satu indikator.",
+    "legal": "UU 7/2017 Pasal 280 ayat (1) huruf h dan ketentuan kampanye terkait; penerapan perlu memperhatikan putusan pengadilan yang relevan serta peraturan kampanye yang berlaku.",
+    "src": "UU 7/2017 Pasal 280 ayat (1) huruf h; Perbawaslu 11/2023",
+    "url": "https://peraturan.bpk.go.id/Details/37644/uu-no-7-tahun-2017"
+  },
+  {
+    "id": "MKD-PW-010",
+    "track": "pengawas",
+    "cat": "Pengawasan Netralitas",
+    "level": "sulit",
+    "q": "Mengapa pengawas perlu membedakan unggahan pribadi ASN dengan penggunaan akun atau fasilitas kedinasan untuk kampanye?",
+    "a": [
+      "Karena kapasitas, penggunaan fasilitas negara, unsur tindakan, dan ketentuan yang dilanggar harus diuji secara spesifik",
+      "Karena semua unggahan pribadi pasti bebas dari aturan",
+      "Karena semua ASN otomatis menjadi peserta Pemilu",
+      "Karena akun resmi tidak dapat menjadi alat bukti"
+    ],
+    "k": 0,
+    "why": "Penilaian tidak boleh menggeneralisasi. Perlu diperiksa siapa yang bertindak, kapasitasnya, fasilitas yang digunakan, konteks, dan norma netralitas atau larangan kampanye yang relevan.",
+    "legal": "UU 20/2023 tentang ASN Pasal 24 ayat (1) huruf d; UU 7/2017 Pasal 280 dan 282; PP 94/2021 tentang Disiplin PNS sesuai konteks subjek.",
+    "src": "UU 20/2023; UU 7/2017 Pasal 280 dan 282; PP 94/2021",
+    "url": "https://peraturan.bpk.go.id/Details/177031/pp-no-94-tahun-2021"
+  },
+  {
+    "id": "MKD-PW-011",
+    "track": "pengawas",
+    "cat": "Pengawasan Data Pemilih",
+    "level": "sedang",
+    "q": "Dalam uji petik data pemilih, pengawas menemukan pemilih yang memenuhi syarat belum tercantum. Apa tindakan yang tepat?",
+    "a": [
+      "Mencatat hasil uji petik dan menyampaikan saran perbaikan melalui mekanisme pengawasan kepada KPU",
+      "Menambahkan nama sendiri ke daftar secara sepihak",
+      "Mengumumkan NIK dan alamat lengkap di media sosial",
+      "Menghapus data pemilih lain sebagai pengganti"
+    ],
+    "k": 0,
+    "why": "Pengawas melakukan pengawasan dan menyampaikan hasil serta saran perbaikan; kewenangan pemutakhiran data berada pada penyelenggara teknis sesuai aturan.",
+    "legal": "UU 7/2017 mengatur tugas pengawasan daftar pemilih; Perbawaslu 1/2025 mengatur pengawasan pemutakhiran data pemilih berkelanjutan, sedangkan pemutakhiran dilakukan KPU sesuai ketentuan.",
+    "src": "UU 7/2017; Perbawaslu 1/2025",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/502592322"
+  },
+  {
+    "id": "MKD-PW-012",
+    "track": "pengawas",
+    "cat": "Pengawasan Pemungutan Suara",
+    "level": "sulit",
+    "q": "Pengawas TPS melihat pemilih yang tidak tercantum dalam daftar hendak menggunakan hak pilih. Apa yang harus dilakukan?",
+    "a": [
+      "Memeriksa dokumen dan prosedur layanan pemilih sesuai ketentuan, mencatat fakta, serta berkoordinasi dengan KPPS tanpa mengambil alih tugas KPPS",
+      "Mengizinkan atau menolak berdasarkan pendapat pribadi",
+      "Mencobloskan surat suara untuk pemilih",
+      "Mengubah daftar pemilih secara manual tanpa prosedur"
+    ],
+    "k": 0,
+    "why": "Pengawas memastikan prosedur dan hak pilih dilaksanakan sesuai ketentuan, tetapi tidak menggantikan kewenangan KPPS.",
+    "legal": "UU 7/2017 dan PKPU 25/2023 mengatur pemungutan suara serta kategori pemilih dan prosedur penggunaan hak pilih; pengawasan Bawaslu mengikuti kewenangan dalam UU Pemilu dan Perbawaslu 1/2024 tentang pengawasan pemungutan dan penghitungan suara.",
+    "src": "UU 7/2017; PKPU 25/2023; Perbawaslu 1/2024",
+    "url": "https://jdih.kpu.go.id/peraturan-kpu/detail/sSgRpHsIviN8bmx13kPw4XYzN05DejhEU0dBNVpOckRNME9zL1E9PQ"
+  },
+  {
+    "id": "MKD-PW-013",
+    "track": "pengawas",
+    "cat": "Pengawasan Penghitungan",
+    "level": "sulit",
+    "q": "Saat hasil penghitungan di papan tulis berbeda dengan angka pada formulir hasil, apa prioritas pengawas?",
+    "a": [
+      "Mencatat perbedaan secara spesifik, mencocokkan dokumen yang relevan, meminta klarifikasi melalui prosedur, dan mendokumentasikan tindak lanjut",
+      "Mengubah angka pada formulir sendiri",
+      "Mengumumkan kecurangan sebelum verifikasi",
+      "Membiarkan perbedaan tanpa catatan"
+    ],
+    "k": 0,
+    "why": "Pengawas perlu menjaga jejak bukti dan memastikan koreksi dilakukan oleh pihak berwenang melalui prosedur yang sah.",
+    "legal": "UU 7/2017; PKPU 25/2023 tentang Pemungutan dan Penghitungan Suara; Perbawaslu 1/2024 tentang Pengawasan Pemungutan dan Penghitungan Suara dalam Pemilu.",
+    "src": "UU 7/2017; PKPU 25/2023; Perbawaslu 1/2024",
+    "url": "https://jdih.kpu.go.id/peraturan-kpu/detail/sSgRpHsIviN8bmx13kPw4XYzN05DejhEU0dBNVpOckRNME9zL1E9PQ"
+  },
+  {
+    "id": "MKD-PW-014",
+    "track": "pengawas",
+    "cat": "Pengawasan Partisipatif",
+    "level": "mudah",
+    "q": "Bagaimana pengawas sebaiknya menindaklanjuti informasi warga yang belum memenuhi syarat sebagai laporan formal?",
+    "a": [
+      "Mencatat sebagai informasi awal, memverifikasi, dan menilai tindak lanjut sesuai kewenangan serta prosedur",
+      "Mengabaikan semua informasi informal",
+      "Langsung mempublikasikan nama terlapor",
+      "Menjanjikan bahwa pelapor pasti menang"
+    ],
+    "k": 0,
+    "why": "Informasi masyarakat dapat menjadi petunjuk awal, tetapi perlu verifikasi dan penanganan sesuai ketentuan agar tidak menimbulkan tuduhan tanpa dasar.",
+    "legal": "Perbawaslu 2/2023 mengatur pengawasan partisipatif; Perbawaslu 7/2022 mengatur mekanisme formal penanganan temuan dan laporan dugaan pelanggaran Pemilu.",
+    "src": "Perbawaslu 2/2023; Perbawaslu 7/2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/94625366/pengawasan-partisipatif"
+  },
+  {
+    "id": "MKD-PW-015",
+    "track": "pengawas",
+    "cat": "Etika dan Integritas",
+    "level": "sulit",
+    "q": "Seorang pengawas memiliki hubungan keluarga dengan pihak yang sedang diawasi. Apa tindakan yang paling tepat?",
+    "a": [
+      "Mengungkap potensi konflik kepentingan dan meminta arahan atau penyesuaian penugasan melalui mekanisme resmi",
+      "Menyembunyikan hubungan agar tetap memegang perkara",
+      "Memihak anggota keluarga secara diam-diam",
+      "Membocorkan informasi pengawasan kepada keluarga"
+    ],
+    "k": 0,
+    "why": "Pengungkapan konflik kepentingan melindungi independensi, objektivitas, dan kepercayaan publik terhadap proses pengawasan.",
+    "legal": "UU 7/2017 memuat prinsip penyelenggara Pemilu; Peraturan DKPP 2/2017 tentang Kode Etik dan Pedoman Perilaku Penyelenggara Pemilu menjadi pedoman etik; mekanisme penanganan konflik kepentingan mengikuti aturan internal yang berlaku.",
+    "src": "UU 7/2017; Peraturan DKPP 2/2017",
+    "url": "https://dkpp.go.id/"
+  },
+  {
+    "id": "MKD-PW-016",
+    "track": "pengawas",
+    "cat": "Manajemen Bukti",
+    "level": "sulit",
+    "q": "Mengapa file asli foto atau video dugaan pelanggaran perlu dipertahankan?",
+    "a": [
+      "Untuk menjaga keaslian, metadata, konteks, dan kemungkinan pemeriksaan lebih lanjut",
+      "Agar dapat diedit bebas sebelum diserahkan",
+      "Agar bukti terlihat lebih viral",
+      "Agar tidak perlu mencatat sumber perolehan"
+    ],
+    "k": 0,
+    "why": "File asli membantu menjaga integritas bukti. Salinan kerja dapat dibuat, tetapi sumber, waktu, cara perolehan, dan setiap perubahan harus dicatat.",
+    "legal": "UU 1/2024 tentang Perubahan Kedua UU ITE, Pasal 5 dan 6, mengatur Informasi Elektronik/Dokumen Elektronik sebagai alat bukti dengan persyaratan hukum; penanganan pelanggaran mengikuti Perbawaslu 7/2022.",
+    "src": "UU 1/2024 Pasal 5–6; Perbawaslu 7/2022",
+    "url": "https://peraturan.bpk.go.id/"
+  },
+  {
+    "id": "MKD-PW-017",
+    "track": "pengawas",
+    "cat": "Analisis Hukum",
+    "level": "sulit",
+    "q": "Apa urutan analisis yang paling tepat ketika pengawas menerima dugaan pelanggaran?",
+    "a": [
+      "Memetakan fakta, mengidentifikasi norma dan unsur, menguji bukti, memeriksa kewenangan serta tenggat, lalu menentukan tindak lanjut",
+      "Menentukan pasal dahulu lalu mencari fakta yang cocok",
+      "Menentukan pihak bersalah berdasarkan opini publik",
+      "Menyebarkan dugaan agar mendapat tekanan"
+    ],
+    "k": 0,
+    "why": "Analisis berbasis fakta dan unsur mencegah kesimpulan prematur serta memastikan penanganan sesuai kewenangan dan prosedur.",
+    "legal": "Perbawaslu 7/2022 mengatur proses penanganan temuan/laporan; UU 7/2017 dan peraturan pelaksana menentukan unsur pelanggaran, kewenangan, serta tenggat tindak lanjut.",
+    "src": "UU 7/2017; Perbawaslu 7/2022",
+    "url": "https://jdih.bawaslu.go.id/peraturan/view/40022902"
+  },
+  {
+    "id": "MKD-PW-018",
+    "track": "pengawas",
+    "cat": "Pengawasan Pilkada",
+    "level": "sedang",
+    "q": "Dalam pengawasan Pilkada, sumber hukum utama yang secara khusus mengatur pemilihan gubernur, bupati, dan wali kota adalah ...",
+    "a": [
+      "UU 1 Tahun 2015 beserta perubahan-perubahannya, termasuk UU 10 Tahun 2016",
+      "UU 7 Tahun 2017 saja tanpa aturan Pilkada",
+      "UU tentang Pemerintahan Desa",
+      "Peraturan tata tertib DPR"
+    ],
+    "k": 0,
+    "why": "Pilkada memiliki rezim undang-undang tersendiri. Pengawas harus menggunakan ketentuan Pilkada dan peraturan pelaksana yang berlaku, bukan otomatis menerapkan seluruh ketentuan Pemilu nasional.",
+    "legal": "UU 1/2015 tentang Penetapan Perppu 1/2014 menjadi UU sebagaimana diubah, antara lain, dengan UU 8/2015, UU 10/2016, dan perubahan berikutnya yang berlaku.",
+    "src": "UU 1/2015 jo. UU 8/2015 jo. UU 10/2016",
+    "url": "https://peraturan.bpk.go.id/Details/37311/uu-no-10-tahun-2016"
   }
 ];
