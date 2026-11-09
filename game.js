@@ -141,7 +141,7 @@
 
     function reset() {
       elapsed = 0; distance = 0; score = 0; coins = 0;
-      // Beginner-friendly mode: 3 lives, moderate speed, fair spacing, and auto-assist.
+      // Beginner-friendly mode: 3 lives, moderate speed, fair spacing, and manual controls.
       speed = 190 * unitX; spawn = 5.6; coinSpawn = 2.0; groundOffset = 0;
       obstacles = []; tokens = []; particles = [];
       lives = MAX_LIVES; hitCooldown = 0; jumpBuffer = 0;
@@ -507,30 +507,8 @@
       // Buffered touch input: if the player tapped just before landing, jump now.
       if (jumpBuffer > 0 && !player.jumping) performJump();
 
-      // Built-in assist: ground barriers trigger a jump; incoming birds trigger a slide.
-      // Each obstacle is assisted once, at a timing matched to its approach speed.
-      const hitboxLeft = player.x + characterSize * 0.20;
-      const collisionStartX = hitboxLeft - 62 * unitY;
-      const approachingObstacle = obstacles.find((o) => {
-        if (o.assisted || o.x < collisionStartX) return false;
-        // Trigger each assist at a useful time: birds need a longer slide window;
-        // road obstacles trigger a jump shortly before reaching the player.
-        const range = o.type === 'bird'
-          ? speed * birdSpeedFactor * 1.55 + 38 * unitX
-          : speed * 0.92 + 30 * unitX;
-        return o.x - collisionStartX <= range;
-      });
-      if (approachingObstacle && hitCooldown <= 0) {
-        if (approachingObstacle.type === 'bird') {
-          if (!player.jumping) {
-            player.sliding = true;
-            player.slideUntil = Math.max(player.slideUntil, elapsed + 2.05);
-          }
-        } else if (!player.jumping) {
-          performJump();
-        }
-        approachingObstacle.assisted = true;
-      }
+      // No automatic movement: jumping and sliding only happen after player input.
+      // This prevents the character from jumping without the player pressing a control.
 
       if (player.jumping) {
         player.y += player.vy * dt;
