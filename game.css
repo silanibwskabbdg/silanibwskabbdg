@@ -122,3 +122,45 @@ body.wwr-lock-scroll{overflow:hidden!important;overscroll-behavior:none}
 .wwr-player-option:focus-visible{outline:3px solid #d8ad58;outline-offset:3px}
 .wwr-player-option:active{transform:scale(.98)}
 @media(max-width:480px){.wwr-player-picker{gap:8px;margin:7px auto 9px}.wwr-player-option{min-height:62px;padding:5px 8px;border-radius:12px;font-size:.92rem}.wwr-player-option img{width:48px;height:48px}.wwr-overlay-panel{padding:14px 12px}}
+
+/* Mobile fullscreen start panel: keep the complete character picker and Start button reachable. */
+.wwr-game-card:fullscreen .wwr-overlay,
+.wwr-game-card:-webkit-full-screen .wwr-overlay,
+.wwr-game-card.wwr-mobile-fullscreen .wwr-overlay{
+  position:fixed!important;
+  inset:0!important;
+  z-index:100000!important;
+  width:100vw!important;
+  height:100vh!important;
+  height:100dvh!important;
+  max-height:100dvh!important;
+  box-sizing:border-box!important;
+  display:grid;
+  place-items:center;
+  align-content:center;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))!important;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+}
+.wwr-game-card:fullscreen .wwr-overlay-panel,
+.wwr-game-card:-webkit-full-screen .wwr-overlay-panel,
+.wwr-game-card.wwr-mobile-fullscreen .wwr-overlay-panel{
+  width:min(440px,100%)!important;
+  max-width:100%!important;
+  max-height:calc(100dvh - 28px)!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  box-sizing:border-box!important;
+  margin:auto!important;
+  padding:clamp(12px,3vh,22px) clamp(12px,3vw,22px)!important;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+}
+.wwr-game-card:fullscreen .wwr-overlay-panel .wwr-player-picker,
+.wwr-game-card:-webkit-full-screen .wwr-overlay-panel .wwr-player-picker,
+.wwr-game-card.wwr-mobile-fullscreen .wwr-overlay-panel .wwr-player-picker{margin:7px auto 9px}
+.wwr-game-card:fullscreen .wwr-overlay-panel .wwr-primary,
+.wwr-game-card:-webkit-full-screen .wwr-overlay-panel .wwr-primary,
+.wwr-game-card.wwr-mobile-fullscreen .wwr-overlay-panel .wwr-primary{margin-bottom:2px;min-height:48px}
