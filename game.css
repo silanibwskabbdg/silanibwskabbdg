@@ -9,7 +9,7 @@
 .wwr-bests>div{background:#fff;border:1px solid #eadfe0;border-radius:15px;padding:12px 16px;min-width:120px;box-shadow:0 8px 22px #3610180b}
 .wwr-bests span,.wwr-hud .wwr-label{display:block;font-size:.68rem;font-weight:800;letter-spacing:.09em;color:#777}
 .wwr-bests strong{display:block;font-size:1.4rem;color:#4c151d;margin-top:3px}
-.wwr-game-card{background:#fff;border:1px solid #eadfe0;border-radius:22px;padding:16px;box-shadow:0 18px 50px #36101812}
+.wwr-game-card{position:relative;background:#fff;border:1px solid #eadfe0;border-radius:22px;padding:16px;box-shadow:0 18px 50px #36101812}
 .wwr-hud{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:2px 4px 14px}
 .wwr-hud>div{padding:8px 12px;border-radius:12px;background:#faf6f4;min-width:0}
 .wwr-hud strong{display:block;font-size:1.25rem;color:#4c151d;font-variant-numeric:tabular-nums}
@@ -123,40 +123,38 @@ body.wwr-lock-scroll{overflow:hidden!important;overscroll-behavior:none}
 .wwr-player-option:active{transform:scale(.98)}
 @media(max-width:480px){.wwr-player-picker{gap:8px;margin:7px auto 9px}.wwr-player-option{min-height:62px;padding:5px 8px;border-radius:12px;font-size:.92rem}.wwr-player-option img{width:48px;height:48px}.wwr-overlay-panel{padding:14px 12px}}
 
-/* Mobile fullscreen start panel: keep the complete character picker and Start button reachable. */
+/* Start overlay is a sibling of the clipped game stage, so the entire panel can scroll on phones. */
 .wwr-game-card:fullscreen .wwr-overlay,
 .wwr-game-card:-webkit-full-screen .wwr-overlay,
 .wwr-game-card.wwr-mobile-fullscreen .wwr-overlay{
-  position:fixed!important;
+  position:absolute!important;
   inset:0!important;
   z-index:100000!important;
-  width:100vw!important;
-  height:100vh!important;
-  height:100dvh!important;
-  max-height:100dvh!important;
+  width:100%!important;
+  height:100%!important;
+  max-height:100%!important;
   box-sizing:border-box!important;
-  display:grid;
-  place-items:center;
-  align-content:center;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
   overflow-y:auto!important;
   overflow-x:hidden!important;
-  padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))!important;
-  -webkit-overflow-scrolling:touch;
-  overscroll-behavior:contain;
+  padding:max(14px,env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))!important;
+  -webkit-overflow-scrolling:touch!important;
+  overscroll-behavior:contain!important;
+  touch-action:pan-y!important;
 }
 .wwr-game-card:fullscreen .wwr-overlay-panel,
 .wwr-game-card:-webkit-full-screen .wwr-overlay-panel,
 .wwr-game-card.wwr-mobile-fullscreen .wwr-overlay-panel{
+  flex:0 0 auto!important;
   width:min(440px,100%)!important;
   max-width:100%!important;
-  max-height:calc(100dvh - 28px)!important;
-  overflow-y:auto!important;
-  overflow-x:hidden!important;
+  max-height:none!important;
+  overflow:visible!important;
   box-sizing:border-box!important;
   margin:auto!important;
   padding:clamp(12px,3vh,22px) clamp(12px,3vw,22px)!important;
-  -webkit-overflow-scrolling:touch;
-  overscroll-behavior:contain;
 }
 .wwr-game-card:fullscreen .wwr-overlay-panel .wwr-player-picker,
 .wwr-game-card:-webkit-full-screen .wwr-overlay-panel .wwr-player-picker,
